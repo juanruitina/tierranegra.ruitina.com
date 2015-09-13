@@ -1,0 +1,394 @@
+@import url(//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700,400italic);
+
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+html, body {width:100%;height:100%;margin:0;}
+body {
+    font-family:"Lato",sans-serif;
+    margin:0;
+    font-size: 1em;
+    line-height:normal;
+    color: #333;
+}
+
+/* Formato */
+b, strong {
+	font-weight: bold;
+}
+i, em {
+    font-style: italic;
+}
+abbr {
+    border-bottom: 1px dotted #333;
+}
+a {
+    border-bottom: 1px solid #ccc;
+    text-decoration:none;
+    color:inherit;
+    transition: all 200ms linear;
+}
+a:hover {
+    border-bottom-color: #333;
+}
+p, blockquote, div.pmargin {
+    margin-bottom:1rem;
+}
+div.pmargin {
+    display:block !important;
+}
+blockquote {
+	font-style: italic;
+}
+.clearboth {
+    clear:both;
+}
+.inlineblock {
+	display: inline-block;
+}
+
+/* Cuerpo */
+.header_capitulo {
+    background-size: cover;
+    background-position:bottom center;
+    padding: 140px 0;
+}
+header {
+    background-size: cover;
+    background-position:bottom center;
+    text-shadow: white 0 0 20px;
+}
+.box, div.seccion {
+    max-width:960px;
+    margin:0 auto;
+    display:block;
+}
+div.seccion {
+    margin-top:5rem;
+    margin-bottom:8rem;
+}
+h1,h2,h3,h4,.fancy-font {
+    font-family: "Old Standard TT", serif;
+}
+h1,h2 {
+    font-weight: 300;
+    font-size:3rem;
+    line-height:3.4rem;
+    margin-bottom:1rem;
+}
+h1 a {
+	border-bottom: 0;
+}
+hgroup {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+p {
+    font-size:1rem;
+}
+p.subtitle {
+    font-weight:400;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+.subtitle a {
+    border-bottom-color: #333;
+}
+footer {
+    margin-top:8rem;
+    margin-bottom:10rem;
+}
+footer p.copyright {
+    text-transform:uppercase;
+    font-weight: 400;
+    margin-top:2rem;
+}
+.p-big {
+    font-size:2rem;
+    line-height: 2.4rem;
+    margin:0 auto 64px;
+    padding-top:64px;
+    font-weight: 300;
+}
+.seccion > p, .seccion > blockquote, .seccion > hr, .seccion > h3, footer > .box {
+    max-width: 600px;
+}
+.seccion > p, .seccion > blockquote, .seccion > hr, .seccion > h3 {
+    margin: 0 0 1rem auto;
+}
+.seccion > p, .seccion > blockquote {
+	font-size:1.3rem;
+	line-height: 1.9rem;
+}
+.seccion.centrada > p, .seccion.centrada > blockquote {
+	margin-right:auto;
+}
+.seccion > hr {
+    margin: 5rem 0 5rem auto;
+}
+.seccion > h3 {
+    font-size:1.3rem;
+}
+.entrevista {
+    background-color:whitesmoke;
+    padding:5rem 0;
+}
+.entrevista .seccion {
+    margin-top:0;
+    margin-bottom:0;
+}
+.entrevista .titular {
+    font-size:2rem;
+    line-height: 2.4rem;
+    font-weight: bold;
+    margin-top:1rem;
+    margin-bottom:2rem;
+    font-style: italic;
+}
+.entrevista .pregunta {
+    font-weight: bold;
+}
+.entrevista img {
+    border-radius: 3px;
+}
+/* parallax */
+.parallax {
+	text-shadow: white 0 0 5px;
+   clear:both;
+}
+.parallax-banner {
+   height: 100%;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.parallax-banner .content-a {
+   width:100%;
+   height:100vh;
+}
+.parallax-banner .content-bg {
+   background-color: rgba(255,255,255,.5);
+}
+.parallax-banner .container {
+   height:100%;
+}
+/* content centering styles */
+.content-a {
+    display:table;
+}
+.content-b {
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+}
+
+/* visual styles */
+body{
+    margin:0;
+}
+section {
+    background:#9ed100;
+}
+.not-fullscreen {
+    height:100%;
+}
+
+.imgsource {
+	font-size:.8rem;
+	text-align: right;
+	text-transform: uppercase;
+	margin:10px 0;
+}
+.parallax .imgsource {
+    position: relative;
+    bottom: 40px;
+    right: 20px;
+    font-size: .8rem;
+    margin:0;
+}
+.imgsource a {
+    border-color:#333;
+    transition:none;
+}
+
+/* SIDE */
+div.side {
+    width: 300px;
+    float: left;
+    margin-bottom:2rem;
+}
+div.side.card {
+	padding:1.5rem 1.5rem .5rem;
+	box-shadow:0 1px 2px #aaa;
+	background:white;
+	border-radius:3px;
+	box-sizing: border-box;
+}
+.side h3 {
+	font-size:1.3rem;
+	font-weight: 400;
+	margin-bottom:1.2rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+.side .consti_art {
+	text-align:right;
+}
+.side .precio {
+	text-align: center;
+}
+.side .precio_numero {
+	font-size:3rem;
+	line-height: 3rem;
+	margin-bottom:.2rem;
+}
+.side .precio_sub {
+	font-weight: bold;
+	font-size:1.2em;
+	margin:.6rem 0;
+	line-height: 1.8rem;
+}
+.ul_centered li {
+	margin-bottom: .8em;
+	text-align: center;
+}
+hr {
+	border:0;
+	border-top:1px solid #ddd;
+	margin:1.2rem 0;
+}
+
+/* Infografías */
+iframe.tableauViz {
+    margin:0 auto !important;
+    width: 100% !important;
+}
+.tableauembed {
+    width: 100%; /* whatever width you want */
+    display: block;
+    position: relative;
+}
+div.tableauembed {
+    margin-top:3rem;
+    margin-bottom:3rem;
+}
+.tableauembed:after {
+    padding-top: 100%; /* aspect ratio */
+    display: block;
+    content: '';
+}
+/*.grafico.tableauembed:after {
+    padding-top: 50%; /* aspect ratio
+}
+*/
+.tableauPlaceholder {
+    position: absolute !important;
+    top: 0; bottom: 0; right: 0; left: 0; /* fill parent */
+}
+/* Keep aspect ratio */
+.keepaspectratio-out {
+    width: 100%; /* whatever width you want */
+    display: block;
+    position: relative;
+}
+.keepaspectratio-out:after {
+    padding-top: 100%; /* aspect ratio */
+    display: block;
+    content: '';
+}
+.keepaspectratio-out.square:after {
+    padding-top: 100% !important; /* aspect ratio */
+}
+.keepaspectratio-in {
+    position: absolute !important;
+    top: 0; bottom: 0; right: 0; left: 0; /* fill parent */
+}
+
+/* Tablet */
+@media screen and (max-width:1000px) {
+    .box, .seccion > p, .seccion > h3, .seccion > blockquote {
+        padding-left:6%;
+        padding-right:6%;
+    }
+    .box.mobilefullwidth {
+        padding-left:0;
+        padding-right:0;
+    }
+    div.side {
+    	margin:0rem 2rem 2rem 6%;
+    	max-width:40%;
+    }
+    .tableauembed:after {
+        padding-top: 100% !important; /* aspect ratio */
+    }
+}
+
+/* Phone */
+@media screen and (max-width:460px) {
+    html {
+        font-size:80%;
+    }
+    .parallax, footer {
+        text-align:left;
+    }
+    div.side {
+    	float:none;
+    	width:auto;
+    	max-width: none;
+    	margin:2rem 6%;
+    }
+    .p-big {
+        font-size:1.6rem;
+        line-height: 2rem;
+    }
+    h1,h2 {
+    	font-size:2.6rem;
+    }
+    .imgsource {
+    	right: 6%;
+	}
+}
+
+@media screen and (min-width:1400px) {
+	.fullscreen, .not-fullscreen {height:70% !important;}
+
+	/*html {
+	    font-size:120%;
+	}
+	.box, div.seccion {
+    	max-width:1152px; /* 960px
+    }
+    .seccion > p, .seccion > blockquote, .seccion > hr, .seccion > h3, footer > .box {
+        max-width: 720px; /* 600px
+    }
+    div.side {
+        width: 360px; /* 300px
+    }*/
+}
+
+/* IE8 + noscript */
+.warning {
+	background-color:#E68D96;
+	padding:12px 6%;
+	text-align:center;
+}
+.warning a {
+	border:none;
+	text-decoration: underline;
+}
+
+.parallax.parallax-button {
+}
+
+
+/* Inicio */
+.keepaspectratio-out.banner1 {
+   min-height:100%;
+}
+.keepaspectratio-out.banner1:after {
+    padding-top: 100% !important; /* 56.25% aspect ratio */
+}
+
+p:last-of-type {
+    margin-bottom:0;
+}
