@@ -1,6 +1,19 @@
 /* PARALLAX */
 $(window).stellar();
 
+/* Show menu on scroll */
+$(document).ready(function(){
+    var toplimit = $( window ).height() * 0.8;
+    var bottomlimit = $( document ).height() - $( window ).height() * 1.2;
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > toplimit && $(this).scrollTop() < bottomlimit ) {
+            $('#top-nav').fadeIn(500);
+        } else {
+            $('#top-nav').fadeOut(500);
+        }
+    });
+});
+
 /* RESIZE */
 $(window).resize(function(){
     // If there are multiple elements with the same class, "main"

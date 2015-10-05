@@ -2,6 +2,7 @@
 
    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
    <script src="js/jquery.stellar.min.js"></script>
+   <!--<script src="js/bootstrap.min.js"></script>-->
    <script src="js/script.js"></script>
 
    <script async="" charset="utf-8" src="//platform.vine.co/static/scripts/embed.js"></script>

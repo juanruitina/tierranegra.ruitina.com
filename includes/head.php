@@ -12,11 +12,8 @@
   <meta name="author" content="Juan Ruitiña" />
   <link rel="canonical" href="" />
 
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
   <link rel="stylesheet" href="style.css" />
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -25,15 +22,3 @@
   <![endif]-->
 
 </head>
-
-<body>
-<!--[if lte IE 8]>
-  <div class="warning">
-    Para ver este reportaje correctamente necesitarás <a href="https://whatbrowser.org/">actualizar tu navegador</a>.
-  </div>
-<![endif]-->
-<noscript>
-  <div class="warning">
-    Por favor, activa javascript en tu navegador para disfrutar de este reportaje.
-  </div>
-</noscript>
