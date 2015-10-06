@@ -81,8 +81,8 @@ h1 a {
 hgroup {
     padding: 2rem;
 }
-.fondob {
-    background-color: rgba(255, 255, 255, 0.7);
+.fondob, .siguiente .container {
+   background-color: rgba(0,0,0,.7);
 }
 
 p {
@@ -158,17 +158,18 @@ footer p.copyright {
 /* Banners y parallax */
 .banner {
    background-size: cover;
-   background-attachment: fixed;
-}
-.parallax {
-	text-shadow: white 0 0 5px;
+   color:whitesmoke;
+   text-shadow: #333 0 0 5px;
    clear:both;
-   /*min-height:100%;*/
 }
-.parallax-banner {
-   height: 100%;
-   background-attachment: fixed;
-   background-size: cover;
+.banner .container {
+   height:100%;
+}
+.banner .minititulo::after {
+   background-color:whitesmoke
+}
+.banner.portada {
+   height:100%;
 }
 .content-a {
    width:100%;
@@ -204,20 +205,19 @@ section {
     height:100%;
 }
 
-.imgsource {
+.img-caption {
 	font-size:.8rem;
 	text-align: right;
-	text-transform: uppercase;
 	margin:10px 0;
 }
-.parallax .imgsource {
+.banner .img-caption {
     position: relative;
     bottom: 40px;
     right: 20px;
     font-size: .8rem;
     margin:0;
 }
-.imgsource a {
+.img-caption a {
     border-color:#333;
     transition:none;
 }
@@ -430,7 +430,7 @@ body.inicio hgroup.header, .bloquederecha {
     html {
         font-size:80%;
     }
-    .parallax, footer {
+    .banner, footer {
         text-align:left;
     }
     div.side {
@@ -446,7 +446,7 @@ body.inicio hgroup.header, .bloquederecha {
     h1,h2 {
     	font-size:2.6rem;
     }
-    .imgsource {
+    .img-caption {
     	right: 6%;
 	}
 }
@@ -477,4 +477,17 @@ body.inicio hgroup.header, .bloquederecha {
 .warning a {
 	border:none;
 	text-decoration: underline;
+}
+
+/* Botón Siguiente */
+.siguiente {
+   background-attachment:fixed;
+   height:60%;
+}
+/* Créditos */
+div.creditos {
+   background-color:black;
+   color:whitesmoke;
+   padding:72px 96px;
+   text-align:center;
 }

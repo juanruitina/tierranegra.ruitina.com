@@ -7,13 +7,12 @@
 <body class="inicio">
   <?php include('includes/header.php'); ?>
 
-  <div class="banner1">
-     <div class="banner parallax parallax-banner" style="background-image: url(img/castillete.jpg);" data-stellar-background-ratio="0.1">
+     <div class="banner portada" style="background-image: url(img/castillete.jpg);" data-stellar-background-ratio="0.1">
         <div class="container">
            <div class="content-a">
-             <div class="content-b">
-                <div class="box">
-                   <hgroup class="header fondob bloquederecha">
+             <div id="intro-caja" class="content-b fondob">
+                <div id="intro-texto" class="box">
+                   <hgroup class="header bloquederecha">
                       <h1><a href="#start" class="smooth">Donde la tierra era negra</a></h1>
                       <p class="subtitle description">En 2018, tras siglo y medio de reclamar sudor y sangre, la minería asturiana del carbón deberá echar el cierre. Las Cuencas Mineras han recibido miles de millones para reconvertir su economía, ¿pero lo habrán conseguido?</p>
                       <p class="subtitle fancy-font margin-bottom-none"><em>Un reportaje de <!--<a href="http://juanruitina.com">-->Juan Ángel Donaire Ruitiña<!--</a>--></em></p>
@@ -22,12 +21,11 @@
              </div>
           </div>
                  </div>
-          <div class="imgsource">
+          <div id="autor" class="img-caption">
              <a href="">Autor</a>, <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC</a>
           </div>
 
     </div>
-</div>
 
   <!--<div class="parallax parallax-banner" style="height:100%; background-image: url(img/castillete.jpg);" data-stellar-background-ratio="0.5">
     <div class="content-a content-bg">
@@ -40,7 +38,7 @@
      </div>
       </div>
 
-      <div class="imgsource">
+      <div class="img-caption">
         <a href="">Autor</a>, <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC</a>
       </div>
    </div>-->
@@ -67,16 +65,17 @@
   </div>
 
   <a href="lucha">
-  <div class="banner parallax" style="height:50%; background-image: url(img/lucha.jpg);background-position:bottom" >
-     <div class="content-a content-bg">
-        <div class="content-b fondob">
-           <div class="box">
+  <div class="banner parallax siguiente" style="background-image: url(img/lucha.jpg);background-position:bottom" >
+     <div class="container">
+       <div class="content-a">
+          <div class="content-b">
+              <div class="box">
             <div class="minititulo">Capítulo 1</div>
             <a href="lucha" class="jscroll-next"><h2>La lucha de todos</h2></a>
            </div>
         </div>
      </div>
-     <div class="imgsource">
+     <div class="img-caption">
         &copy; <a href="">Autor</a>
      </div>
   </div>

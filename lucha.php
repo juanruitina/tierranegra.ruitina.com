@@ -8,16 +8,16 @@
   <?php include('includes/header.php'); ?>
   <?php include('includes/top-nav.php'); ?>
 
-  <div class="banner parallax" style="height:100%; background-image: url(img/lucha.jpg);background-position:bottom">
+  <div class="banner portada" style="background-image: url(img/lucha.jpg);background-position:bottom">
        <div class="content-a">
-          <div class="content-b fondob">
-            <div class="box">
+          <div id="caja" class="content-b fondob">
+            <div id="texto" class="box">
               <div class="minititulo">Capítulo 1</div>
               <h2>La lucha de todos</h2>
              </div>
           </div>
        </div>
-       <div class="imgsource">
+       <div id="autor" class="img-caption">
           © <a href="">Autor</a>
        </div>
   </div>
@@ -64,7 +64,7 @@
 <p><em>
  Gráfico estructura de ayudas</em></p>
 <p>
- Las negociaciones de todos estos planes fueron acompañadas de huelgas y manifestaciones multitudinarias. Como en los viejos tiempos, recibían también la solidaridad de toda la comarca. La minería es también un fenómeno social: además de quienes la han vivido de cerca, la dureza del trabajo en la mina no es ajena a nadie. La simbología y la emotividad han acompañado a cada reivindicación: <em>Santa Bárbara Bendita</em> es un himno no solo minero, sino también de las Cuencas e incluso de Asturias. Algo parecido ocurre con las canciones del mierense Víctor Manuel dedicadas a la mina —<em>El abuelo</em>, <em>En la planta catorce</em>—. El recuerdo de las vidas que con tanta frecuencia se cobró la tierra está grabada a fuego en el imaginario colectivo de los asturianos. Difícil olvidar los catorce muertos en el pozo Nicolasa en 1995 por una explosión de grisú, o tantas otras pérdidas familiares.</p>
+ Las negociaciones de todos estos planes fueron acompañadas de huelgas y manifestaciones multitudinarias. Como en los viejos tiempos, recibían también la solidaridad de toda la comarca. La minería es también un fenómeno social: además de quienes la han vivido de cerca, la dureza del trabajo en la mina no es ajena a nadie. La simbología y la emotividad han acompañado a cada reivindicación: <em>Santa Bárbara Bendita</em> es un himno no solo minero, sino también de las Cuencas e incluso de Asturias. Algo parecido ocurre con las canciones del mierense Víctor Manuel dedicadas a la mina —<em>El abuelo</em>, <em>En la planta catorce</em>—. El recuerdo de las vidas que con tanta frecuencia se cobró la tierra está grabada a fuego en el imaginario colectivo de los asturianos. Difícil olvidar accidentes como el del pozo Nicolasa en 1995, cuando catorce mineros fallecieron tras una explosión de grisú.</p>
 </div>
 
 <div style="background-color:black">
@@ -87,18 +87,20 @@
   </div>
 
   <a href="triunfo">
-  <div class="banner parallax" style="height:50%; background-image: url(img/manifa.jpg);background-position:center center" >
-     <div class="content-a content-bg">
-        <div class="content-b fondob">
-           <div class="box">
-               <div class="bloquederecha">
-                  <div class="minititulo">Capítulo 2</div>
-                  <a href="triunfo"><h2>El triunfo de algunos</h2></a>
+  <div class="banner siguiente" style="background-image: url(img/manifa.jpg);" >
+     <div class="container">
+        <div class="content-a">
+           <div class="content-b">
+              <div class="box">
+                  <div class="bloquederecha">
+                     <div class="minititulo">Capítulo 2</div>
+                     <a href="triunfo"><h2>El triunfo de algunos</h2></a>
+                  </div>
                </div>
-            </div>
+           </div>
         </div>
      </div>
-     <div class="imgsource">
+     <div class="img-caption">
         &copy; <a href="">Autor</a>
      </div>
   </div>
