@@ -6,24 +6,28 @@
   <?php include('includes/head.php'); ?>
   <body class="cap1 lucha">
   <?php include('includes/header.php'); ?>
+  <header>
   <?php include('includes/top-nav.php'); ?>
 
   <div class="banner portada" style="background-image: url(img/puno.jpg);background-position:right top;">
+     <div id="caja" class="container fondob">
        <div class="content-a">
-          <div id="caja" class="content-b fondob">
+          <div class="content-b">
             <div id="texto" class="box">
               <div class="minititulo">Capítulo 1</div>
-              <h2>La lucha de todos</h2>
+              <h2><a href="#start" class="smooth">La lucha de todos</a></h2>
              </div>
           </div>
        </div>
+    </div>
        <div id="autor" class="img-caption">
           <div class="img-caption-description">Una mujer alza el puño cerrado en una manifestación en León en 2012.</div>
           <div class="img-caption-copyright"><a href="https://www.flickr.com/photos/raulvillalon/7184799149/">Raúl Villalón</a>, <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC-ND</a></div>
        </div>
   </div>
+</header>
 
-  <div id="inicio" class="seccion">
+  <div id="start" class="seccion">
 <p>La historia reciente de Asturias, y en especial la de las Cuencas Mineras, está ligada al florecimiento de la industria regional. La siderurgia y la minería del carbón supusieron toda una revolución demográfica y cultural para la zona centro de la provincia. En el siglo XIX comenzaron a explotarse numerosos yacimientos de carbón: conforme las infraestructuras los comunicaron con el puerto de Gijón, numerosas explotaciones se abrieron en Mieres, Langreo y otros municipios cercanos. En torno a ellos, industrias como la aún existente Duro Felguera dieron trabajo a otros tantos.</p>
 
      <div class="side card">
@@ -87,7 +91,6 @@
 <p>La última gran huelga tuvo lugar en el año 2012, cuando se negociaba con el gobierno popular el que debería ser el último Plan del Carbón. Un grupo de mineros caminó desde Asturias hasta Madrid, como lo había hecho en otras ocasiones, y fueron recibidos allí entre aplausos. Ponían así fin, según algunos, a la acción sindical de un sector abocado a su desaparición.</p>
   </div>
 
-  <a href="triunfo">
   <div class="banner siguiente" style="background-image: url(img/manifa.jpg);" >
      <div class="container">
         <div class="content-a">
@@ -101,11 +104,7 @@
            </div>
         </div>
      </div>
-     <div class="img-caption">
-        &copy; <a href="">Autor</a>
-     </div>
   </div>
-  </a>
 
   </div>
 

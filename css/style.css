@@ -58,9 +58,11 @@ blockquote {
 header {
     background-size: cover;
     background-position:bottom center;
+    height:100%;
 }
 header .banner {
     text-shadow: #333 0 0 5px;
+    height:100%;
 }
 
 /* Cuerpo */
@@ -70,7 +72,7 @@ header .banner {
     display:block;
 }
 div.seccion {
-    margin-top:5rem;
+    padding-top:5rem;
     margin-bottom:8rem;
 }
 h1,h2 {
@@ -79,7 +81,7 @@ h1,h2 {
     line-height: 3rem;
     margin-bottom:1rem;
 }
-h1 a {
+h1 a, header h2 a {
 	border-bottom: 0;
 }
 .fondob, .siguiente .container {
@@ -106,13 +108,6 @@ footer p.copyright {
     font-weight: 400;
     margin-top:2rem;
 }
-.p-big {
-    font-size:2rem;
-    line-height: 2.4rem;
-    margin:0 auto 64px;
-    padding-top:64px;
-    font-weight: 300;
-}
 .seccion > p, .seccion > blockquote, .seccion > hr, .seccion > h3, footer > .box {
     max-width: 600px;
 }
@@ -122,6 +117,13 @@ footer p.copyright {
 .seccion > p, .seccion > blockquote {
 	font-size:1.3rem;
 	line-height: 1.9rem;
+}
+.seccion > p.p-big {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin: 0 auto 64px;
+    font-weight: 300;
+    max-width: 100%;
 }
 .seccion.centrada > p, .seccion.centrada > blockquote {
 	margin-right:auto;
@@ -176,7 +178,7 @@ footer p.copyright {
    width:100%;
    height:100%;
 }
-.manana .content-a {
+.inicio header .content-a, .manana header .content-a {
    height:100vh;
 }
 /*.parallax-banner .content-bg {
@@ -217,6 +219,7 @@ section {
     right: 20px;
     font-size: .8rem;
     margin:0;
+    padding-left:20px;
 }
 .img-caption a {
     border-color:#333;
@@ -372,9 +375,6 @@ p:last-of-type {
 .fullwidth  {margin-top:72px;margin-bottom: 72px}
 
 /* Menú */
-#top-nav {
-   display:none;
-}
 .top-nav {
     background:black;
     color:whitesmoke;
@@ -487,9 +487,7 @@ body.inicio hgroup.header, .bloquederecha {
    text-align:center;
 }
 
-.inicio header { height: 100% }
-
-
+/* Top nav */
 #top-nav-button {
   width: 20px;
   height: 15px;
@@ -606,7 +604,7 @@ body.inicio hgroup.header, .bloquederecha {
     	max-width: none;
     	margin:5rem 6%;
     }
-    .p-big {
+    .seccion > p.p-big {
         font-size:1.6rem;
         line-height: 2rem;
     }
@@ -635,6 +633,17 @@ body.inicio hgroup.header, .bloquederecha {
     }*/
 }
 
-.cap2 .siguiente {
+.cap2 .siguiente, .manana .banner {
    -webkit-filter: grayscale(1);
 }
+.siguiente-hover:hover {
+   cursor:pointer;
+}
+.siguiente-hover .container {
+   transition: ease 500ms;
+}
+.siguiente-hover .container:hover {
+    background-color: rgba(0,0,0,.8);
+}
+
+#top-nav,#caja,#texto,#autor,#manana-texto {display:none}

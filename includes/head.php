@@ -11,12 +11,14 @@
   <meta property="og:description" content="" />
   <meta name="author" content="Juan Ruitiña" />
   <link rel="canonical" href="" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/ie.css" />
   <![endif]-->
-
+  <noscript>
+     <link rel="stylesheet" type="text/css" href="css/ie.css" />
+  </noscript>
 </head>

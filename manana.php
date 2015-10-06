@@ -5,17 +5,17 @@
 
   <?php include('includes/head.php'); ?>
   <body class="cap3 manana">
-  <header>
   <?php include('includes/header.php'); ?>
+  <header style="height:150vh">
   <?php include('includes/top-nav.php'); ?>
 
-  <div class="banner" style="background-image: url(img/panorama.jpg);height:150vh" >
+  <div class="banner" style="background-image: url(img/panorama.jpg)" >
      <div id="manana-caja" class="container fondob">
         <div class="content-a" data-stellar-ratio="0.7" style="position:absolute">
            <div class="content-b">
              <div id="manana-texto" class="box">
                 <div class="minititulo">Capítulo 3</div>
-                <a href="#start"><h2>Las Cuencas de mañana</h2></a>
+                <a href="#start" class="smooth"><h2>Las Cuencas de mañana</a></h2>
              </div>
           </div>
        </div>
@@ -23,10 +23,10 @@
     <div class="img-caption">
       Panorámica de Mieres. A la izquierda, la autovía minera, que comunica ambas cuencas con Gijón.
     </div>
-</div>
-  </header>
+ </div>
+</header>
 
-<div class="seccion">
+<div class="seccion" id="start">
    <p>Texto.</p>
 </div>
 

@@ -1,6 +1,6 @@
 <?php include('variables/variables.php'); ?>
 
-   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   <script src="js/jquery.min.js"></script>
    <script src="js/jquery.stellar.min.js"></script>
    <script src="js/script.js"></script>
 

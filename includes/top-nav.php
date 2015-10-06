@@ -1,15 +1,3 @@
-<!--[if lte IE 8]>
-  <div class="warning">
-    Para ver este reportaje correctamente necesitarás <a href="https://whatbrowser.org/">actualizar tu navegador</a>.
-  </div>
-<![endif]-->
-
-<noscript>
-  <div class="warning">
-    Por favor, activa javascript en tu navegador para disfrutar de este reportaje.
-  </div>
-</noscript>
-
 <div class="top-nav" id="top-nav">
   <nav class="box">
     <h1><a href="/">Donde la tierra era negra</a></h1>
