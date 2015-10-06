@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Donde la tierra era negra</title>
+  <title>Donde la tierra era negra: Las Cuencas de mañana</title>
 
   <?php include('includes/head.php'); ?>
   <body class="cap3 manana">
@@ -21,8 +21,8 @@
        </div>
     </div>
     <div class="img-caption">
-      Panorámica de Mieres.
-   </div>
+      Panorámica de Mieres. A la izquierda, la autovía minera, que comunica ambas cuencas con Gijón.
+    </div>
 </div>
   </header>
 
@@ -36,11 +36,8 @@
     <div class="box">
       <p class="fancy-font"><a>Donde la tierra era negra</a></p>
       <p class="fancy-font">Juan Ángel Donaire Ruitiña, octubre de 2015</p>
-      <p>*</p>
-      <p style="margin-bottom:.3em">Reportaje elaborado como Trabajo de Fin de Grado de Periodismo.</p>
-      <p style="margin-bottom:.3em">Todos los datos utilizados están disponibles en <a href="">esta hoja de cálculo</a>.</p>
+      <p>Reportaje elaborado como Trabajo de Fin de Grado de Periodismo. Todos los datos utilizados están disponibles en <a href="">esta hoja de cálculo</a>.</p>
       <p>¿Opiniones? Házmelas saber <a href="http://twitter.com/juanruitina">vía Twitter</a> o mándame un correo a <i><a href="mailto:juan@ruitina.com">juan@ruitina.com</a></i>.</p>
-      <p>*</p>
       <p class="fancy-font">Creative Commons <a href="http://creativecommons.org/licenses/by-sa/3.0/es/" title="Reconocimiento-Compartir igual">BY-SA</a></p>
     </div>
 </div>

@@ -11,8 +11,6 @@
   <meta property="og:description" content="" />
   <meta name="author" content="Juan Ruitiña" />
   <link rel="canonical" href="" />
-
-  <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
   <link rel="stylesheet" href="style.css" />
 
   <!--[if lt IE 9]>

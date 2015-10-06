@@ -8,7 +8,7 @@
   <?php include('includes/header.php'); ?>
   <?php include('includes/top-nav.php'); ?>
 
-  <div class="banner portada" style="background-image: url(img/puno.jpg);background-position:right top;">
+  <div class="banner portada" style="background-image: url(img/lucha.jpg);background-position:bottom">
        <div class="content-a">
           <div id="caja" class="content-b fondob">
             <div id="texto" class="box">
@@ -18,8 +18,8 @@
           </div>
        </div>
        <div id="autor" class="img-caption">
-          <div class="img-caption-description">Una mujer alza el puño cerrado en una manifestación en León en 2012.</div>
-          <div class="img-caption-copyright"><a href="https://www.flickr.com/photos/raulvillalon/7184799149/">Raúl Villalón</a>, <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC-ND</a></div>
+          <div class="img-caption-description">Marcha minera de camino a Madrid en 2012.</div>
+          <div class="img-caption-copyright"><a href="https://www.flickr.com/photos/jlmaral/7397397748/">jlmaral</a>, <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC-ND</a></div>
        </div>
   </div>
 
