@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700,400italic);
 
 /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 html, body {width:100%;height:100%;margin:0;}
 body {
     font-family:"Lato",sans-serif;
@@ -35,7 +35,7 @@ a {
     transition: all 200ms linear;
 }
 /** {outline: none}*/
-a:hover, /* *:focus */ {
+a:hover /*, *:focus */ {
     border-bottom-color: #333;
 }
 p, blockquote, div.pmargin {
@@ -73,7 +73,7 @@ header .banner {
 }
 div.seccion {
     padding-top:5rem;
-    margin-bottom:8rem;
+    margin-bottom:5rem;
 }
 h1,h2 {
     font-weight: 300;
@@ -237,6 +237,7 @@ section {
     width: 300px;
     float: left;
     margin-bottom:2rem;
+    min-height:85px
 }
 /*.side.card {
 	padding:1.5rem 1.5rem .5rem;
@@ -245,6 +246,76 @@ section {
 	border-radius:3px;
 	box-sizing: border-box;
 }*/
+
+/* Capítulo 1 */
+.banner-video {
+   background-color:black;
+}
+.banner-video .side, .banner-tabla-partidos .side {
+   padding: 36px 0;
+   margin-bottom: 0;
+}
+.banner-tabla-partidos .side {
+   padding-top: 0;
+}
+.banner-video .side {
+   color: whitesmoke;
+}
+.banner-video .side blockquote {
+   font-size: 1.3em;
+}
+.banner-video .video, .banner-tabla-partidos .tabla-partidos {
+   max-width:600px;
+   margin-left:auto;
+   margin-right:0;
+}
+
+/* Capítulo 2 */
+.side.doc p {
+   margin-bottom: .5rem;
+}
+.side.doc p.doc-titulo {
+   font-weight: bold;
+}
+.side.doc p.doc-meta {
+   font-size: .8rem;
+   text-transform: uppercase;
+}
+.side.doc .doc-img {
+   width: 60px;
+   position: relative;
+   float:left;
+   margin-top: 5px;
+   margin-right:20px;
+   margin-bottom:24px;
+   height:100%;
+}
+.side.doc .doc-img::after {
+    display: block;
+    background: url(../img/doc-icon.svg);
+    content: ' ';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+.side.doc .doc-img img {
+   width: 100%;
+   display: block;
+}
+
+.dos-citas {margin-top:6rem;margin-bottom:2rem;}
+.cita {width:47%; float:left;}
+.cita:first-of-type {margin-right:6%}
+.cita blockquote {font-size:1.7rem;}
+
+/*.banner-tabla-partidos .tabla-partidos {
+   margin-right:auto;
+   margin-left:0;
+}*/
+
+/* Fin capítulos */
+
 .side h3, .minititulo {
 	font-size:1.3rem;
 	font-weight: 400;
@@ -573,7 +644,7 @@ body.inicio hgroup.header, .bloquederecha {
 
 /* Tablet */
 @media screen and (max-width:1000px) {
-    .box, .seccion > p, .seccion > h3, .seccion > blockquote, .fullwidth {
+    .box, .seccion, .fullwidth {
         padding-left:6%;
         padding-right:6%;
     }
@@ -581,12 +652,21 @@ body.inicio hgroup.header, .bloquederecha {
         padding-left:0;
         padding-right:0;
     }
-    div.side {
-    	margin:0rem 2rem 2rem 6%;
-    	max-width:40%;
+    .side {
+    	margin:2rem 0 2rem auto;
+    	width:100%;
+      max-width:600px;
+      float:none;
     }
     .tableauembed:after {
         padding-top: 100% !important; /* aspect ratio */
+    }
+    .banner-video .side, .banner-tabla-partidos .side, .banner-tabla-partidos h3 {
+      float: none;
+      text-align: left;
+      max-width: 600px;
+      margin-left: auto;
+      width: 100%;
     }
 }
 
@@ -602,7 +682,11 @@ body.inicio hgroup.header, .bloquederecha {
     	float:none;
     	width:auto;
     	max-width: none;
-    	margin:5rem 6%;
+    	margin:5rem;
+    }
+    .banner-tabla-partidos div.side {
+      margin: 0;
+      padding-top: 0;
     }
     .seccion > p.p-big {
         font-size:1.6rem;
@@ -614,6 +698,9 @@ body.inicio hgroup.header, .bloquederecha {
     .img-caption {
     	right: 6%;
 	}
+   .tabla-partidos span.tabla-th-abreviar {
+      display:none;
+   }
 }
 
 @media screen and (min-width:1400px) {

@@ -30,13 +30,14 @@
   <div id="start" class="seccion">
 <p>La historia reciente de Asturias, y en especial la de las Cuencas Mineras, está ligada al florecimiento de la industria regional. La siderurgia y la minería del carbón supusieron toda una revolución demográfica y cultural para la zona centro de la provincia. En el siglo XIX comenzaron a explotarse numerosos yacimientos de carbón: conforme las infraestructuras los comunicaron con el puerto de Gijón, numerosas explotaciones se abrieron en Mieres, Langreo y otros municipios cercanos. En torno a ellos, industrias como la aún existente Duro Felguera dieron trabajo a otros tantos.</p>
 
-     <div class="side card">
+     <div class="side">
         <h3>Guaje</h3>
         <p>Hoy día se discute si la  conocida palabra &ldquo;guaḥe&rdquo; (con hache aspirada),  &ldquo;niño&rdquo; en asturiano, viene del inglés  &ldquo;washer&rdquo; (&ldquo;lavador&rdquo;) o del alemán-neerlandés &ldquo;wagen&rdquo; (&ldquo;vagón&rdquo;), siendo  precisamente el lavado de carbón y el tirado de vagones de carbón las tareas de  las que se encargaban habitualmente los niños.</p>
      </div>
 <p>
  Por aquel entonces, las condiciones laborales eran cercanas a la esclavitud: jornadas de 12 horas, hasta 310 días de trabajo que incluían algunos domingos y trabajo a destajo Trabajo a destajo. Hay que sumarle además la dureza propia de la labor minera: la exposición a la humedad, la inhalación de polvos —causante de la temida silicosis— y la alta siniestralidad, todo por un sueldo mínimo. Pronto los trabajadores empezaron a manifestar su disconformidad con estas condiciones: primero de forma individual, pero conforme se proletarizaban y empezaron a difundirse las ideas socialistas, los mineros comenzaron a movilizarse.</p>
-   <div class="linea-temporal fullwidth">
+ </div>
+   <div class="box linea-temporal">
     <h3 class="minititulo">Historia de la minería en Asturias</h3>
     <link title="timeline-styles" rel="stylesheet" href="//cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
     <script src="//cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
@@ -54,6 +55,7 @@
       timeline = new TL.Timeline('timeline-embed', 'https://docs.google.com/spreadsheets/d/1YIdfBHhUOIiA3OOzrzqCUJ7Rvhf0A6buVkTfMeu-QWo/pubhtml' , additionalOptions);
     </script>
   </div>
+  <div class="seccion">
  <p>
  A principios del siglo XX empieza a gestarse el movimiento sindical minero, crucial para entender el desarrollo de las Cuencas hasta hoy día. En 1910, Manuel Llaneza funda el Sindicato de Obreros Mineros de Asturias, el SOMA, hoy parte de UGT. Poco después tuvieron lugar las primeras grandes huelgas: primero para ser reconocidos, después para conseguir objetivos laborales, tales como el salario mínimo o la semana de vacaciones. Durante la Segunda República, los sindicatos fueron protagonistas de la revolución de 1934. En la Guerra Civil también se posicionaron en el bando republicano, pero el precio fue alto: desde la caída del norte en el bando nacional y durante la posguerra, los trabajadores mineros fueron militarizados, hasta el punto de que &ldquo;el abandono del trabajo sería interpretado como deserción, la falta de disciplina como insubordinación y la huelga como rebelión militar&rdquo;.</p>
 <p>
@@ -72,18 +74,17 @@
  Las negociaciones de todos estos planes fueron acompañadas de huelgas y manifestaciones multitudinarias. Como en los viejos tiempos, recibían también la solidaridad de toda la comarca. La minería es también un fenómeno social: además de quienes la han vivido de cerca, la dureza del trabajo en la mina no es ajena a nadie. La simbología y la emotividad han acompañado a cada reivindicación: <em>Santa Bárbara Bendita</em> es un himno no solo minero, sino también de las Cuencas e incluso de Asturias. Algo parecido ocurre con las canciones del mierense Víctor Manuel dedicadas a la mina —<em>El abuelo</em>, <em>En la planta catorce</em>—. El recuerdo de las vidas que con tanta frecuencia se cobró la tierra está grabada a fuego en el imaginario colectivo de los asturianos. Difícil olvidar accidentes como el del pozo Nicolasa en 1995, cuando catorce mineros fallecieron tras una explosión de grisú.</p>
 </div>
 
-<div style="background-color:black">
+<div class="banner-video">
     <div class="box">
-    <p class="side" style="text-align:right;color:whitesmoke;margin:36px 0;font-size:1.3em">
- <em>En la planta catorce del pozo minero
-  de la tarde amarilla tres hombres no volvieron.
-  hay sirenas, lamentos, acompasados ayes
-  a la boca del pozo.
-  Dos mujeres de luto anhelando dos cuerpos
-  y una madre que rumia su agonía en silencio:
-  es el tercero.</em></p>
-       <div style="max-width:600px;margin-left:auto;margin-right:0;"><div class="keepaspectratio-out planta14">
-            <iframe class="keepaspectratio-in" width="100%" height="100%" src="https://www.youtube.com/embed/aNGDgP9pSB8?start=6&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe></div></div>
+       <div class="side">
+         <blockquote>En la planta catorce del pozo minero, de la tarde amarilla tres hombres no volvieron. Hay sirenas, lamentos, acompasados ayes a la boca del pozo. Dos mujeres de luto anhelando dos cuerpos y una madre que rumia su agonía en silencio: es el tercero.</blockquote>
+         <p>Víctor Manuel relata en la canción <em>En la planta 14</em> la terrible cotidianidad de los accidentes en la mina. Las imágenes corresponden al accidente en el Pozo Santa Bárbara, el 19 de diciembre de 1992.</p>
+       </div>
+       <div class="video">
+          <div class="keepaspectratio-out planta14">
+            <iframe class="keepaspectratio-in" width="100%" height="100%" src="https://www.youtube.com/embed/aNGDgP9pSB8?start=6&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
+         </div>
+      </div>
     </div>
 </div>
 

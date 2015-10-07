@@ -27,9 +27,9 @@
          </div>
       </div>
    </header>
-   <div class="seccion">
+   <div class="seccion" id="start">
 
-  <p class="p-big box" id="start" ><strong>Es nochevieja de 2018, en un piso en el centro de Mieres.</strong> La  familia se junta para comer las uvas. El chaval no tiene trabajo, pero es buen  día para dejar de lado esas preocupaciones. Los padres se han hecho cargo del  ágape: el marisco, asturiano, estaba delicioso; el cordero se quemó un poco,  pero sabía a gloria. El brindis de rigor —con sidra El Gaitero— despide el año.  Y con la primera uva ya en ristre, el abuelo tiene la mirada perdida. Después  de tanto pelear, se dice a sí mismo, nadie ha podido evitar el cierre de la  mina que le dio trabajo, la última que quedaba. La misma en la que murieron  tantos compañeros por dar de comer a sus hijos. La misma que dio de comer, de  hecho, a todos los que, ante él y la tele, se preparan para dar la bienvenida  al año nuevo mientras suena el carrillón en la Puerta del Sol.</p>
+  <p class="p-big box"><strong>Es nochevieja de 2018, en un piso en el centro de Mieres.</strong> La  familia se junta para comer las uvas. El chaval no tiene trabajo, pero es buen  día para dejar de lado esas preocupaciones. Los padres se han hecho cargo del  ágape: el marisco, asturiano, estaba delicioso; el cordero se quemó un poco,  pero sabía a gloria. El brindis de rigor —con sidra El Gaitero— despide el año.  Y con la primera uva ya en ristre, el abuelo tiene la mirada perdida. Después  de tanto pelear, se dice a sí mismo, nadie ha podido evitar el cierre de la  mina que le dio trabajo, la última que quedaba. La misma en la que murieron  tantos compañeros por dar de comer a sus hijos. La misma que dio de comer, de  hecho, a todos los que, ante él y la tele, se preparan para dar la bienvenida  al año nuevo mientras suena el carrillón en la Puerta del Sol.</p>
 
   <div class="side card index">
       <h3>Índice</h3>
