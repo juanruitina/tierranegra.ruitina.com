@@ -30,11 +30,7 @@ $(document).ready(function(){
 
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if ( $(window).width() > $(window).height() ) {
-      var scrollAnimationSpeed = 4;
-    } else {
-      var scrollAnimationSpeed = 2;
-    };
+    var scrollAnimationSpeed = 4;
     $('#manana-caja').css({'opacity':( 100-scroll/scrollAnimationSpeed )/100});
     $('.manana .banner').css({'-webkit-filter': 'grayscale(' + ( 100-scroll/scrollAnimationSpeed )/100}) + '%)';
 });

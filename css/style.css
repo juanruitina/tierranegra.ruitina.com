@@ -337,6 +337,11 @@ section {
    margin-left:0;
 }*/
 
+/* Capítulo 3 */
+.box.epilogo {
+   min-height: 300px;
+   background: black;
+}
 /* Fin capítulos */
 
 .side h3, .minititulo {
@@ -448,6 +453,10 @@ p:last-of-type {
 /*.tl-slide-content {width: 100% !important;}*/
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container {display:none;}
 .tl-media-shadow {box-shadow: none !important;}
+.tl-timeline a, .tl-timeline p a {
+   text-decoration: inherit !important;
+   color:inherit !important;
+}
 
 .fullwidth  {margin-top:72px;margin-bottom: 72px}
 

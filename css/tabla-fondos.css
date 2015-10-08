@@ -1,0 +1,63 @@
+.tabla-fondos table {
+  border-collapse: separate;
+  width: 100%;
+}
+.tabla-fondos > table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  min-height:271px;
+  margin-bottom: 1rem;
+}
+.tabla-fondos > table > tbody > tr > td:first-of-type {
+   width:50px;
+}
+.tabla-fondos > table > tbody > tr > td:first-of-type {
+   width:50px;
+   padding:4px 8px;
+   text-align:right;
+}
+.tabla-fondos > table > tbody > tr > td:nth-of-type(3),
+.tabla-fondos .infraestructuras table td:nth-of-type(2) {
+   text-align:right;
+}
+.tabla-fondos > table > tbody > tr > td:nth-of-type(2) {
+   padding-left: 12px;
+}
+.tabla-fondos tr.infraestructuras > td:first-of-type {
+   background-color:black;
+   color:white;
+}
+.tabla-fondos tr.empleo > td:first-of-type {
+   background-color:grey;
+   color:white;
+}
+.tabla-fondos tr.formacion > td:first-of-type {
+   background-color:#ccc;
+}
+.tabla-fondos tr.infraestructuras > td { height:258px;}
+.tabla-fondos tr.empleo > td           { height:43px; }
+.tabla-fondos tr.formacion > td        { height:23px; }
+
+.tabla-fondos .infraestructuras table:last-of-type  {
+   margin-top:6px;
+   font-style: italic;
+}
+.tabla-fondos .infraestructuras table:last-of-type td {
+   padding:2px 0;
+   color:gray;
+}
+.tabla-fondos > table > tbody > tr:first-of-type > td:last-of-type {
+   text-align:right;
+}
+.tabla-fondos > table > tbody > tr:first-of-type > td:last-of-type::after {
+   content:" ";
+   display:block;
+   margin-top: .5rem;
+   margin-bottom: 0;
+   border-top: 1px solid #ddd;
+}
+.tabla-fondos > table > tbody > tr:nth-of-type(2) > td {
+   font-weight: bold;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}

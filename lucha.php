@@ -66,10 +66,73 @@
  Con el sector ya casi íntegramente nacionalizado, es el Estado quien dirige casi en solitario la minería del carbón en Asturias. No es poca responsabilidad: es en ese momento cuando se materializó la necesidad de reconvertir la economía regional. Ya en democracia, los sindicatos —legalizados—, y los sucesivos gobiernos empezaron a negociar la gestión del declive minero. Tras la adhesión a las Comunidades Europeas en 1986, España tuvo que asumir el marco legislativo comunitario a la hora de configurar los planes del carbón.</p>
 <h3>Los planes del carbón</h3>
 <p>Las ayudas a la producción de carbón permiten mantener aún hoy la actividad minera, que emplea todavía a unas 2.500 personas de forma directa en Asturias. Por otro lado, las prejubilaciones permiten a los mineros retirarse a edades tan tempranas como los 42 años —en función de la crudeza de su puesto de trabajo— con pensiones elevadas. Así se ha podido reducir la plantilla de Hunosa de forma no traumática, y también mejorar la salud de los trabajadores.</p>
+<div class="side tabla-fondos">
+   <h3>El plan del carbón 1998-2005</h3>
+   <style>
+      @import url(css/tabla-fondos.css);
+   </style>
+   <table>
+      <tbody>
+     <tr>
+       <td></td>
+       <td colspan="2">mill. €</td>
+     </tr>
+     <tr>
+       <td></td>
+       <td>Total</td>
+       <td>1.603</td>
+     </tr>
+     <tr class="infraestructuras">
+       <td style="">79%</td>
+       <td colspan="2">
+         <table>
+               <tr>
+                   <td>Infraestructuras</td>
+                   <td>1.274</td>
+               </tr>
+
+           </table>
+           <table>
+             <tr>
+               <td>Carreteras</td>
+               <td>805</td>
+             </tr>
+             <tr>
+               <td>Proyectos municipales</td>
+               <td>166</td>
+             </tr>
+             <tr>
+               <td>Educación</td>
+               <td>144</td>
+             </tr>
+             <tr>
+               <td>Polígonos industriales</td>
+               <td>106</td>
+             </tr>
+             <tr>
+               <td>Medio Ambiente</td>
+               <td>49</td>
+             </tr>
+           </table>
+       </td>
+     </tr>
+     <tr class="empleo">
+       <td>13%</td>
+       <td>Proyectos generadores de empleo</td>
+       <td>214</td>
+     </tr>
+     <tr class="formacion">
+       <td>7%</td>
+       <td>Formación</td>
+       <td>116</td>
+     </tr>
+   </table>
+   <p><em>Fuente: Sindicatura de Cuentas del Principado de Asturias. No hay datos finales sobre el plan 2006-2012.</em></p>
+</div>
+
 <p>
  Pero a partir del Plan del Carbón 1998-2005 las ayudas tuvieron un objetivo más ambicioso: reconvertir la economía de las Cuencas. Con ese fin surgen los célebres Fondos Mineros: por una parte ayudas estatales autorizadas por la Unión Europea y por otra los fondos comunitarios de desarrollo regional (FEDER). Estos fondos fueron destinados a infraestructuras, proyectos generadores de puestos de trabajo, becas formativas y proyectos de investigación y desarrollo. Eso sí: a cambio, de autorizar estas ayudas, la Comisión Europea exige que las explotaciones mineras no rentables cierren para el año 2018. De lo contrario deberán devolverse las ayudas, 22.000 millones de euros según el gobierno central.</p>
-<p><em>
- Gráfico estructura de ayudas</em></p>
+
 <p>
  Las negociaciones de todos estos planes fueron acompañadas de huelgas y manifestaciones multitudinarias. Como en los viejos tiempos, recibían también la solidaridad de toda la comarca. La minería es también un fenómeno social: además de quienes la han vivido de cerca, la dureza del trabajo en la mina no es ajena a nadie. La simbología y la emotividad han acompañado a cada reivindicación: <em>Santa Bárbara Bendita</em> es un himno no solo minero, sino también de las Cuencas e incluso de Asturias. Algo parecido ocurre con las canciones del mierense Víctor Manuel dedicadas a la mina —<em>El abuelo</em>, <em>En la planta catorce</em>—. El recuerdo de las vidas que con tanta frecuencia se cobró la tierra está grabada a fuego en el imaginario colectivo de los asturianos. Difícil olvidar accidentes como el del pozo Nicolasa en 1995, cuando catorce mineros fallecieron tras una explosión de grisú.</p>
 </div>

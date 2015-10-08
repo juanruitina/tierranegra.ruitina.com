@@ -37,7 +37,7 @@
 </div>
 <div class="box banner-tabla-partidos">
    <style>
-      @import url(css/partidos-tabla.css);
+      @import url(css/tabla-partidos.css);
    </style>
    <h3 class="minititulo">El poder de la izquierda en las Cuencas Mineras</h3>
    <div class="side">
@@ -334,6 +334,6 @@
 
   </div>
   <?php include('includes/footer.php'); ?>
-  <script src="js/partidos-tabla.js"></script>
+  <script src="js/tabla-partidos.js"></script>
 </body>
 </html>
