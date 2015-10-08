@@ -290,12 +290,12 @@
    <p>También causó gran revuelo el testimonio de José Vía, representante del minoritario sindicato USO. En <a href="http://www.elcomercio.es/politica/201410/26/fiscalia-investiga-fondo-caso-20141026011707-v.html">una entrevista al diario gijonés <em>El Comercio</em></a>, Vía afirma haber presenciado conversaciones delicadas en las cuales se reconocía de forma implícita malversación de fondos y tráfico de influencias por parte de los representantes de, al menos, UGT.</p>
 
 </div>
-<div class="box dos-citas">
-   <div class="cita">
+<div class="box dos dos-citas">
+   <div class="dos-bloque cita">
       <blockquote>&ldquo;Vengo del Tribunal de Cuentas de declarar por los fondos de formación de la minería, que vosotros sabéis muy bien cómo los gastasteis&rdquo;</blockquote>
       <p>—Juan Miguel Benítez, gerente del Instituto del Carbón, a Víctor Fernández, secretario de UGT-FITAG para el carbón</p>
    </div>
-   <div class="cita">
+   <div class="dos-bloque cita">
       <blockquote>&ldquo;José Ángel, todo lo que habéis hecho por mí bien que os lo he pagado&rdquo;.</blockquote>
       <p>—Victorino Alonso, presidente de la patronal, a José Ángel Fernández Villa, secretario general de SOMA-UGT</p>
    </div>

@@ -1,0 +1,83 @@
+<div id="g-cuencas-mapa-Mesa_de_trabajo_1" class="g-artboard ">
+		<style type="text/css" media="screen,print">
+			#g-cuencas-mapa-Mesa_de_trabajo_1{
+				position:relative;
+				overflow:hidden;
+			}
+			.g-aiAbs{
+				position:absolute;
+			}
+			.g-aiImg{
+				display:block;
+				width:100% !important;
+			}
+			#g-cuencas-mapa-Mesa_de_trabajo_1 p{
+				font-size:13px;
+				line-height:18px;
+				margin:0;
+			}
+			#g-cuencas-mapa-Mesa_de_trabajo_1 .g-aiPstyle0 {
+				font-size:12px;
+				line-height:14px;
+				color:#aeadb3;
+			}
+			#g-cuencas-mapa-Mesa_de_trabajo_1 .g-aiPstyle1 {
+				font-size:12px;
+				line-height:14px;
+				color:#ffffff;
+			}
+			#g-cuencas-mapa-Mesa_de_trabajo_1 .g-aiPstyle2 {
+				font-size:12px;
+				line-height:14px;
+				text-align:center;
+				color:#000000;
+			}
+			#g-cuencas-mapa-Mesa_de_trabajo_1 .g-aiPstyle3 {
+				font-size:12px;
+				line-height:14px;
+				color:#000000;
+			}
+			#g-cuencas-mapa-Mesa_de_trabajo_1 .g-aiPstyle4 {
+				font-size:12px;
+				line-height:14px;
+				text-align:right;
+				color:#000000;
+			}
+		</style>
+		<div id="g-cuencas-mapa-Mesa_de_trabajo_1-graphic">
+			<img id="g-ai0-0" class="g-aiImg" src="img/cap0-mapa.png">
+			<div id="g-ai0-1" class="g-R_tulos_copia g-aiAbs" style="top:1.6691%;left:40.7362%;">
+				<p class="g-aiPstyle0">Avilés</p>
+			</div>
+			<div id="g-ai0-2" class="g-R_tulos_copia g-aiAbs" style="top:18.7774%;left:53.7339%;">
+				<p class="g-aiPstyle1">Gijón</p>
+			</div>
+			<div id="g-ai0-3" class="g-R_tulos_copia g-aiAbs" style="top:33.3820%;left:55.8819%;width:13.6970%;margin-left:-6.8485%;">
+				<p class="g-aiPstyle2">Langreo</p>
+			</div>
+			<div id="g-ai0-4" class="g-R_tulos_copia g-aiAbs" style="top:38.3893%;left:45.6998%;">
+				<p class="g-aiPstyle1">Oviedo</p>
+			</div>
+			<div id="g-ai0-5" class="g-R_tulos_copia g-aiAbs" style="top:39.6411%;left:61.4159%;">
+				<p class="g-aiPstyle3">San Martín del Rey Aurelio</p>
+			</div>
+			<div id="g-ai0-6" class="g-R_tulos_copia g-aiAbs" style="top:48.8212%;right:56.1812%;">
+				<p class="g-aiPstyle4">Morcín</p>
+			</div>
+			<div id="g-ai0-7" class="g-R_tulos_copia g-aiAbs" style="top:54.6631%;left:50.0081%;">
+				<p class="g-aiPstyle3">Mieres</p>
+			</div>
+			<div id="g-ai0-8" class="g-R_tulos_copia g-aiAbs" style="top:57.5840%;left:65.0242%;">
+				<p class="g-aiPstyle3">Laviana</p>
+			</div>
+			<div id="g-ai0-9" class="g-R_tulos_copia g-aiAbs" style="top:58.0013%;right:55.5421%;">
+				<p class="g-aiPstyle4">Riosa</p>
+			</div>
+			<div id="g-ai0-10" class="g-R_tulos_copia g-aiAbs" style="top:69.6850%;left:58.5729%;width:7.8891%;margin-left:-3.9446%;">
+				<p class="g-aiPstyle2">Aller</p>
+			</div>
+			<div id="g-ai0-11" class="g-R_tulos_copia g-aiAbs" style="top:73.8577%;left:50.6878%;width:7.9999%;margin-left:-4.0000%;">
+				<p class="g-aiPstyle2">Lena</p>
+			</div>
+		</div>
+	</div>

@@ -9,10 +9,10 @@ $(document).ready(function(){
 
    //$(".inicio .banner,.lucha .banner,.triunfo .banner").delay(1500).queue(function(next) {$(this).addClass("bn-dark");next();});
 
-   $("#caja").delay(1500).fadeIn(2000);
-   $("#texto").delay(2500).fadeIn(1500);
-   $("#top-nav").delay(4000).slideDown(500);
-   $("#autor").delay(4000).fadeIn(500);
+   $("#caja").delay(500).fadeIn(2000);
+   $("#texto").delay(1500).fadeIn(1500);
+   $("#top-nav").delay(3000).slideDown(500);
+   $("#autor").delay(3000).fadeIn(500);
 
    /*$("#intro-caja,#intro-texto").hide();
    $("#intro-caja").delay(1500).fadeIn(2000);

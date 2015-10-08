@@ -72,8 +72,12 @@ header .banner {
     display:block;
 }
 div.seccion {
-    padding-top:5rem;
+    margin-top:5rem;
     margin-bottom:5rem;
+}
+div.seccion:first-of-type {
+    padding-top:5rem;
+    margin-top:0;
 }
 h1,h2 {
     font-weight: 300;
@@ -247,6 +251,25 @@ section {
 	box-sizing: border-box;
 }*/
 
+/* Capítulo 0: inicio */
+.cap0-cuencas .mapa {
+   float:left;
+}
+.cap0-cuencas .side {
+   float:right;
+}
+.cap0-cuencas .dato {
+   margin-bottom:2rem;
+}
+.cap0-cuencas .dato-numero {
+	font-size:1.5rem;
+	margin-bottom:.5rem;
+}
+.cap0-cuencas .dato-fuente {
+	font-size:1em;
+   font-style: italic;
+}
+
 /* Capítulo 1 */
 .banner-video {
    background-color:black;
@@ -264,7 +287,7 @@ section {
 .banner-video .side blockquote {
    font-size: 1.3em;
 }
-.banner-video .video, .banner-tabla-partidos .tabla-partidos {
+.banner-video .video, .banner-tabla-partidos .tabla-partidos, .cap0-cuencas .mapa {
    max-width:600px;
    margin-left:auto;
    margin-right:0;
@@ -304,9 +327,9 @@ section {
    display: block;
 }
 
-.dos-citas {margin-top:6rem;margin-bottom:2rem;}
-.cita {width:47%; float:left;}
-.cita:first-of-type {margin-right:6%}
+.dos {margin-top:5rem;margin-bottom:6rem;}
+.dos .dos-bloque {width:47%; float:left;}
+.dos .dos-bloque:first-of-type {margin-right:6%}
 .cita blockquote {font-size:1.7rem;}
 
 /*.banner-tabla-partidos .tabla-partidos {
@@ -321,23 +344,6 @@ section {
 	font-weight: 400;
 	margin-bottom:1.2rem;
 	text-transform: uppercase;
-}
-.side .consti_art {
-	text-align:right;
-}
-.side .precio {
-	text-align: center;
-}
-.side .precio_numero {
-	font-size:3rem;
-	line-height: 3rem;
-	margin-bottom:.2rem;
-}
-.side .precio_sub {
-	font-weight: bold;
-	font-size:1.2em;
-	margin:.6rem 0;
-	line-height: 1.8rem;
 }
 .side.card.index li {
    font-family: "Old Standard TT", serif;
@@ -643,6 +649,12 @@ body.inicio hgroup.header, .bloquederecha {
 /* Responsive */
 
 /* Tablet */
+
+@media screen and (min-width:1000px) {
+   .margin-top-small {
+      margin-top:2rem !important;
+   }
+}
 @media screen and (max-width:1000px) {
     .box, .seccion, .fullwidth {
         padding-left:6%;
@@ -653,21 +665,44 @@ body.inicio hgroup.header, .bloquederecha {
         padding-right:0;
     }
     .side {
-    	margin:2rem 0 2rem auto;
-    	width:100%;
-      max-width:600px;
-      float:none;
+    	margin:3rem 0 3rem auto;
     }
     .tableauembed:after {
         padding-top: 100% !important; /* aspect ratio */
     }
-    .banner-video .side, .banner-tabla-partidos .side, .banner-tabla-partidos h3 {
+    .side,
+    .banner-video .side,
+    .banner-tabla-partidos .side,
+    .banner-tabla-partidos h3,
+    .cap0-cuencas .side,
+    .cap0-cuencas .mapa,
+    .cap0-cuencas h3 {
       float: none;
       text-align: left;
       max-width: 600px;
       margin-left: auto;
       width: 100%;
+      margin-right:0 !important;
     }
+    .banner-tabla-partidos .tabla-partidos {
+       width:100%;
+       max-width:100%;
+    }
+}
+
+/* Tablets pequeñas */
+@media screen and (max-width:720px) {
+   .dos .dos-bloque {
+     float: none;
+     text-align: left;
+     max-width: 600px;
+     margin-left: auto;
+     width: 100%;
+     margin-right:0 !important;
+   }
+   .dos .dos-bloque {
+      margin-bottom:3rem
+   }
 }
 
 /* Phone */
@@ -677,12 +712,6 @@ body.inicio hgroup.header, .bloquederecha {
     }
     .banner, footer, .creditos {
         text-align:left;
-    }
-    div.side {
-    	float:none;
-    	width:auto;
-    	max-width: none;
-    	margin:5rem;
     }
     .banner-tabla-partidos div.side {
       margin: 0;
