@@ -27,20 +27,20 @@ $(document).ready(function(){
       $(this).toggleClass('open');
    });
 });
-
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    var scrollAnimationSpeed = 4;
-    $('#manana-caja').css({'opacity':( 100-scroll/scrollAnimationSpeed )/100});
-    $('.manana .banner').css({'-webkit-filter': 'grayscale(' + ( 100-scroll/scrollAnimationSpeed )/100}) + '%)';
-});
-
+if ($(window).width() >= 800) {
+   $(window).scroll(function() {
+       var scroll = $(window).scrollTop();
+       var scrollAnimationSpeed = 4;
+       $('#manana-caja').css({'opacity':( 100-scroll/scrollAnimationSpeed )/100});
+       $('.manana .banner').css({'-webkit-filter': 'grayscale(' + ( 100-scroll/scrollAnimationSpeed )/100}) + '%)';
+   });
+}
 /* Fix alto de pantalla para móviles */
 if ($(window).width() < 800) {
    $(document).ready(function(){
-      $('.inicio header .content-a,.lucha header,.triunfo header,.manana header .content-a').css({'height': $(window).height()});
-      $('.inicio header .banner').css({'height': $(window).height() * 1.2 });
-      $('.manana header .banner').css({'height': $(window).height() * 1.5 });
+      $('.lucha header,.triunfo header,.manana header .content-a').css({'height': $(window).height()});
+      $('.inicio header').css({'height': $(window).height() * 1.2 });
+      $('.manana header').css({'height': $(window).height() * 1.5 });
       $('.siguiente').css({'height': $(window).height() * 0.6 });
    });
 }
@@ -71,3 +71,12 @@ $(".siguiente a").each(function() {
     var href = this.href;
     $(".siguiente").addClass("siguiente-hover").click(function() { location.href = href; });
 });
+
+/* Abbr en móviles http://aninnovativeweb.tumblr.com/post/754483543/using-abbr-on-touch-devices */
+if ($(window).width() < 800) {
+   $('abbr').each(function() {
+      $(this).click(function() {
+         alert($(this).attr('title'));
+      });
+   });
+}

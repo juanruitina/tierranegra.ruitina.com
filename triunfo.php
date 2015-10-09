@@ -35,7 +35,7 @@
    <p>La comunidad ha sido gobernada por el PSOE durante veintiocho de los treinta y tres años que han trascurrido desde la aprobación del Estatuto de Autonomía. Frente a la relativa alternancia política a nivel nacional, Asturias ha sido —y sigue siendo— uno de los bastiones del socialismo español. Como ocurre en otras regiones <a href="http://thelandofmaps.tumblr.com/post/118561621665/labor-results-for-the-2015-uk-parliamentary">tradicionalmente industriales y mineras</a>, el fenómeno se acentúa aún más en las Cuencas Mineras. Salvo casos anecdóticos, PSOE e Izquierda Unida se han repartido las alcaldías de toda la comarca durante los últimos treinta y siete años.</p>
 
 </div>
-<div class="box banner-tabla-partidos">
+<div class="box banner-tabla banner-tabla-partidos">
    <style>
       @import url(css/tabla-partidos.css);
    </style>
@@ -44,7 +44,7 @@
       <p>Desde las primeras elecciones municipales democráticas, en 1978, la izquierda ha gobernado de forma casi ininterrumpida en todos los concejos de las Cuencas.</p>
       <p>Este gráfico muestra el principal partido del gobierno a final de cada año.</p>
    </div>
-   <div class="tabla-partidos">
+   <div class="tabla tabla-partidos">
       <table>
         <tbody>
           <tr>

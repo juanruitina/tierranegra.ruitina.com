@@ -127,7 +127,7 @@
        <td>116</td>
      </tr>
    </table>
-   <p><em>Fuente: Sindicatura de Cuentas del Principado de Asturias. No hay datos finales sobre el plan 2006-2012.</em></p>
+   <p class="grafico-creditos">Fuente: Sindicatura de Cuentas del Principado de Asturias. No hay datos finales sobre el plan 2006-2012.</p>
 </div>
 
 <p>

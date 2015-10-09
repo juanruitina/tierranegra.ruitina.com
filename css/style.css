@@ -269,16 +269,22 @@ section {
 	font-size:1em;
    font-style: italic;
 }
+/* Gráficos */
+.grafico-creditos {
+   font-size: .8em;
+   font-style: italic;
+   margin-top:2rem;
+}
 
 /* Capítulo 1 */
 .banner-video {
    background-color:black;
 }
-.banner-video .side, .banner-tabla-partidos .side {
+.banner-video .side, .banner-tabla .side {
    padding: 36px 0;
    margin-bottom: 0;
 }
-.banner-tabla-partidos .side {
+.banner-tabla .side {
    padding-top: 0;
 }
 .banner-video .side {
@@ -287,7 +293,7 @@ section {
 .banner-video .side blockquote {
    font-size: 1.3em;
 }
-.banner-video .video, .banner-tabla-partidos .tabla-partidos, .cap0-cuencas .mapa {
+.banner-video .video, .banner-tabla .tabla, .cap0-cuencas .mapa {
    max-width:600px;
    margin-left:auto;
    margin-right:0;
@@ -332,7 +338,7 @@ section {
 .dos .dos-bloque:first-of-type {margin-right:6%}
 .cita blockquote {font-size:1.7rem;}
 
-/*.banner-tabla-partidos .tabla-partidos {
+/*.banner-tabla table {
    margin-right:auto;
    margin-left:0;
 }*/
@@ -375,6 +381,9 @@ hr {
 }
 h3.caption {
     max-width:inherit;
+}
+.tabla .overflow {
+   overflow:scroll;
 }
 
 /* Otras cosas */
@@ -570,7 +579,10 @@ body.inicio hgroup.header, .bloquederecha {
    background-color:black;
    color:whitesmoke;
    padding:72px 0 96px;
-   text-align:center;
+}
+.creditos .box {
+   max-width:600px;
+   margin: 0 auto;
 }
 
 /* Top nav */
@@ -681,8 +693,8 @@ body.inicio hgroup.header, .bloquederecha {
     }
     .side,
     .banner-video .side,
-    .banner-tabla-partidos .side,
-    .banner-tabla-partidos h3,
+    .banner-tabla .side,
+    .banner-tabla h3,
     .cap0-cuencas .side,
     .cap0-cuencas .mapa,
     .cap0-cuencas h3 {
@@ -693,7 +705,7 @@ body.inicio hgroup.header, .bloquederecha {
       width: 100%;
       margin-right:0 !important;
     }
-    .banner-tabla-partidos .tabla-partidos {
+    .banner-tabla table {
        width:100%;
        max-width:100%;
     }
@@ -722,7 +734,7 @@ body.inicio hgroup.header, .bloquederecha {
     .banner, footer, .creditos {
         text-align:left;
     }
-    .banner-tabla-partidos div.side {
+    .banner-tabla div.side {
       margin: 0;
       padding-top: 0;
     }
@@ -772,3 +784,20 @@ body.inicio hgroup.header, .bloquederecha {
 }
 
 #top-nav,#caja,#texto,#autor,#manana-texto {display:none}
+
+@media screen and (max-width:800px) {
+   header .fondob {
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+33,e5e5e5+66&amp;0.6+0,0.6+33,0+66 */
+      background: -moz-linear-gradient(top,  rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 33%, rgba(229,229,229,0) 66%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.6)), color-stop(33%,rgba(0,0,0,0.6)), color-stop(66%,rgba(229,229,229,0))); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 33%,rgba(229,229,229,0) 66%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 33%,rgba(229,229,229,0) 66%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 33%,rgba(229,229,229,0) 66%); /* IE10+ */
+      background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 33%,rgba(229,229,229,0) 66%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00e5e5e5',GradientType=0 ); /* IE6-9 */
+   }
+   .manana .banner {
+      -webkit-filter: grayscale(0);
+      background-position: 30%;
+   }
+}
