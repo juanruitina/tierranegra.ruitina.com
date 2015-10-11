@@ -438,6 +438,9 @@ div.tableauembed {
 .keepaspectratio-out.planta14:after {
     padding-top: 75% !important; /* aspect ratio */
 }
+.keepaspectratio-out.epilogo:after {
+    padding-top: 35% !important; /* aspect ratio */
+}
 /*.banner1 .keepaspectratio-out:after {
     padding-top: 80% !important; /* aspect ratio
 }*/
@@ -786,7 +789,7 @@ body.inicio hgroup.header, .bloquederecha {
 #top-nav,#caja,#texto,#autor,#manana-texto {display:none}
 
 @media screen and (max-width:800px) {
-   header .fondob {
+   .manana header .fondob {
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+33,e5e5e5+66&amp;0.6+0,0.6+33,0+66 */
       background: -moz-linear-gradient(top,  rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 33%, rgba(229,229,229,0) 66%); /* FF3.6+ */
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.6)), color-stop(33%,rgba(0,0,0,0.6)), color-stop(66%,rgba(229,229,229,0))); /* Chrome,Safari4+ */

@@ -14,7 +14,7 @@
                   <div id="texto" class="box">
                      <hgroup class="header bloquederecha">
                         <h1><a href="#start" class="smooth">Donde la tierra era negra</a></h1>
-                        <p class="subtitle description">En 2018, tras siglo y medio de reclamar sudor y sangre, la minería asturiana del carbón deberá echar el cierre. Las Cuencas Mineras han recibido miles de millones para reconvertir su economía, ¿pero lo habrán conseguido?</p>
+                        <p class="subtitle description">En 2018, tras siglo y medio de reclamar sudor y sangre, la minería asturiana del carbón deberá echar el cierre. Las Cuencas Mineras han recibido miles de millones para reconvertir su economía. ¿Lo habrán conseguido?</p>
                         <p class="subtitle fancy-font margin-bottom-none"><em>Un reportaje de <!--<a href="http://juanruitina.com">-->Juan Ángel Donaire Ruitiña<!--</a>--></em></p>
                      </hgroup>
                   </div>
@@ -29,7 +29,7 @@
    </header>
    <div class="seccion" id="start">
 
-  <p class="p-big"><strong>Es nochevieja de 2018, en un piso en el centro de Mieres.</strong> La  familia se junta para comer las uvas. El chaval no tiene trabajo, pero es buen  día para dejar de lado esas preocupaciones. Los padres se han hecho cargo del  ágape: el marisco, asturiano, estaba delicioso; el cordero se quemó un poco,  pero sabía a gloria. El brindis de rigor —con sidra El Gaitero— despide el año.  Y con la primera uva ya en ristre, el abuelo tiene la mirada perdida. Después  de tanto pelear, se dice a sí mismo, nadie ha podido evitar el cierre de la  mina que le dio trabajo, la última que quedaba. La misma en la que murieron  tantos compañeros por dar de comer a sus hijos. La misma que dio de comer, de  hecho, a todos los que, ante él y la tele, se preparan para dar la bienvenida  al año nuevo mientras suena el carrillón en la Puerta del Sol.</p>
+  <p class="p-big"><strong><span class="soundcite" data-url="media/intro.mp3" data-start="0" data-end="49000" data-plays="1">Es nochevieja de 2018</span>, en un piso en el centro de Mieres.</strong> La  familia se junta para comer las uvas. El chaval no tiene trabajo, pero es buen  día para dejar de lado esas preocupaciones. Los padres se han hecho cargo del  ágape: el marisco, asturiano, estaba delicioso; el cordero se quemó un poco,  pero sabía a gloria. El brindis de rigor —con sidra El Gaitero— despide el año.  Y con la primera uva ya en ristre, el abuelo tiene la mirada perdida. Después  de tanto pelear, se dice a sí mismo, nadie ha podido evitar el cierre de la  mina que le dio trabajo, la última que quedaba. La misma en la que murieron  tantos compañeros por dar de comer a sus hijos. La misma que dio de comer, de  hecho, a todos los que, ante él y la tele, se preparan para dar la bienvenida  al año nuevo mientras suena el carrillón en la Puerta del Sol.</p>
 
   <div class="side card index">
       <h3>Índice</h3>
@@ -83,5 +83,21 @@
 </div>
 
   <?php include('includes/footer.php'); ?>
+
+  <link href='//cdn.knightlab.com/libs/soundcite/latest/css/player.css' rel='stylesheet' type='text/css'>
+  <script type='text/javascript' src='//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js'></script>
+
+  <style>
+   .soundcite-play:before, .soundcite-pause:before {
+      font-size: 0.8em;
+      top: 0;
+   }
+   .soundcite-loaded:before {
+      vertical-align: 0%;
+      margin-right: 0;
+      margin-left: .2em;
+   }
+  </style>
+
 </body>
 </html>

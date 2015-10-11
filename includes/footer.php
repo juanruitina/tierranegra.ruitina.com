@@ -1,7 +1,6 @@
 <?php include('variables/variables.php'); ?>
 
    <script src="js/jquery.min.js"></script>
-   <script src="js/jquery.stellar.min.js"></script>
    <script src="js/script.js"></script>
 
    <script async="" charset="utf-8" src="//platform.vine.co/static/scripts/embed.js"></script>

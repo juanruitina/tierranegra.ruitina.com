@@ -173,7 +173,7 @@
      <td><span class="boton-rojo">Cerrada</span></td>
     </tr>
     <tr>
-     <td>VenturoXXI</td>
+     <td>Venturo XXI</td>
      <td>1.637.777 €</td>
      <td>73</td>
      <td>22.435 €</td>
@@ -196,11 +196,29 @@
     La ligera mejora del empleo en las Cuencas (un 4%) no se compensa ni de lejos con la pérdida de población en las últimas décadas (un 17%). De hecho, sus municipios siguen liderando en desempleo. La mitad del camino andado desde la aprobación del primer plan de desarrollo hasta 2007 se ha perdido desde el estallido de la crisis, al mismo tiempo que la población caía de forma aún más acusada.</p>
    <p>
     Además, es necesario mirar más allá: conforme la minería se replegaba en los últimos años crecía proporcionalmente el sector servicios, altamente dependiente de las pensiones. En junio de 2015, los jubilados de la minería cobraban un 75% más que el jubilado medio. De hecho, las pensiones del carbón suponen una tercera parte de la renta comarcal, y un 40% de esas pensiones es percibido por mayores de 75 años.</p>
-</div>
+    <style>
+    hr.separador {
+      margin-top:6rem;
+      margin-bottom:6rem;
+      border:0;
+    }
+    hr.separador::after {
+      display: block;
+      margin-top: 12px;
+      margin-bottom: 12px;
+      margin-right: 0;
+      width: 48px;
+      height: 2px;
+      background-color: #333;
+      content: " ";
+   }
+   </style>
+   <hr class="separador" />
+<!--</div>
 <div class="box epilogo" style="text-align:center;">
    <h2>Epílogo</h2>
 </div>
-<div class="seccion centrada">
+<div class="seccion centrada">-->
    <p>Algún día antes del 31 de diciembre de 2018 el último pozo echará el cierre, poniendo así fin a casi dos siglos de actividad minera. La minería dio empleo durante décadas, atrajo a inmigrantes de toda España y creó riqueza. Por muy pobre que fuera la calidad del carbón asturiano, los mineros fueron pieza fundamental de la industrialización española y cruciales en la lucha por los derechos laborales y sociales de todo el país que aún hoy se conservan.</p>
    <p>No hace falta ser adivino para ver cómo serán las Cuencas entonces. Con la gran mayoría de los mineros ya prejubilados —afortunadamente con mejor salud que sus antecesores—, sus rentas desaparecerán progresivamente con ellos. Las iniciativas para crear puestos de trabajo han sido insuficientes para cubrir los empleos de la minería, por lo que el éxodo hacia las principales ciudades asturianas seguirá mermando su demografía. La demanda generada por las pensiones sostendrá el nutrido sector servicios comarcal solo un par de décadas más. Si las tendencias no consiguieron invertirse ni con el empleo de las milmillonarias ayudas, es prácticamente imposible que se logre en los tres años que quedan, cuando el plan del carbón vigente ya lo es de cierre.</p>
    <p>Las cifras y la economía son a veces frías, pero tras estas se encuentran muchas personas: trabajadores, pensionistas, jóvenes, políticos, contribuyentes. Todos pueden sentirse decepcionados. Algunos, incluso culpables. El intento de reconversión ha sido fallido a todas luces, y solo las palabras pueden explicar su mayor suspenso: la gestión política. No es de extrañar que las políticas de desarrollo hayan sido un fracaso estrepitoso. El monopolio del poder político y sindical en Asturias ha sido la herramienta, pero también un veneno sin antídoto. Si todos los colectivos afectados hubiesen comprendido el elevado coste de oportunidad de estas malas prácticas y los agentes implicados en la toma de decisiones hubiesen sido más diversos, seguramente habrían demandado un mayor control del uso de los fondos y habrían corregido las deficiencias de los planes del carbón durante esos veintisiete años en que pudieron hacerlo. Incluso podrían haberse discutido e intentado otras formas de mejorar sus perspectivas de futuro.</p>
@@ -209,6 +227,8 @@
 </div>
 
 </div>
+
+<div class="epilogo keepaspectratio-out"><div class="keepaspectratio-in" style="background-image:url(img/panoramanoche.jpg);background-size:cover" data-stellar-background-ratio="0.7"></div></div>
 
 <div class="creditos">
     <div class="box">
@@ -221,6 +241,7 @@
 
   <?php include('includes/footer.php'); ?>
 
+  <script src="js/jquery.stellar.min.js"></script>
   <!--<script src="js/jquery.tablesorter.js"></script>
   <script>
   $(document).ready(function()
