@@ -1,8 +1,3 @@
-/* Parallax */
-if ($(window).width() >= 800) {
-   $(window).stellar();
-};
-
 /* Animaciones */
 $(document).ready(function(){
    //$("#top-nav,#caja,#texto,#autor,#manana-texto").hide();
@@ -66,10 +61,24 @@ $("a[href^=#]").on("click", function(e) {
     history.pushState("", document.title, window.location.pathname);
 });
 
-/* Botón de siguiente */
-$(".siguiente a").each(function() {
+/* Botón grande https://css-tricks.com/snippets/jquery/make-entire-div-clickable/ */
+/*$(".siguiente a").each(function() {
     var href = this.href;
     $(".siguiente").addClass("siguiente-hover").click(function() { location.href = href; });
+});*/
+
+$(".siguiente, .button-link").hover(
+   function() {
+      $(this).addClass("button-link-hover");
+   },
+   function() {
+      $(this).removeClass("button-link-hover");
+   }
+);
+
+$(".siguiente, .button-link").click(function() {
+  window.location = $(this).find("a").attr("href");
+  return false;
 });
 
 /* Abbr en móviles http://aninnovativeweb.tumblr.com/post/754483543/using-abbr-on-touch-devices */

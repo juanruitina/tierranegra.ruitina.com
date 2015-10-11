@@ -3,7 +3,6 @@
    <script src="js/jquery.min.js"></script>
    <script src="js/script.js"></script>
 
-   <script async="" charset="utf-8" src="//platform.vine.co/static/scripts/embed.js"></script>
    <div id="fb-root"></div>
    <script>(function(d, s, id) {
      var js, fjs = d.getElementsByTagName(s)[0];

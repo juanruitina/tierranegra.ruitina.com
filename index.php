@@ -38,9 +38,17 @@
         <li class="cap2 triunfo"><a href="triunfo">El triunfo de algunos</a></li>
         <li class="cap3 manana"><a href="manana">Las Cuencas de mañana</a></li>
       </ul>
+      <h3 class="side-card-index-entrevistas">Entrevistas</h3>
+      <ul>
+        <li><a href="entrevista-alperi">José Luis Alperi</a></li>
+        <li><a href="entrevista-prendes">José Ignacio Prendes</a></li>
+      </ul>
     </div>
 
-<p>Desde hace dos siglos, Asturias ha sido la principal región productora de carbón en España. El carbón asturiano no es de gran calidad, pero la crónica falta de recursos energéticos de nuestro país convirtió su explotación en una necesidad desde los primeros intentos de industrialización. Cientos de miles de personas han vivido por generaciones de la industria extractiva en los valles del río Nalón y Caudal, en el centro-sur de Asturias. Sin embargo, con la apertura a los mercados internacionales y la llegada de carbones extranjeros, la rentabilidad de las minas asturianas cayó aún más. A finales del siglo pasado, la reconversión del sector se volvió inaplazable. Los mineros jugaron entonces su mejor baza: su incomparable capacidad de movilización.</p>
+<p><!--<?php
+  $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+  echo "<a href='$url'>back</a>";
+?>--> Desde hace dos siglos, Asturias ha sido la principal región productora de carbón en España. El carbón asturiano no es de gran calidad, pero la crónica falta de recursos energéticos de nuestro país convirtió su explotación en una necesidad desde los primeros intentos de industrialización. Cientos de miles de personas han vivido por generaciones de la industria extractiva en los valles del río Nalón y Caudal, en el centro-sur de Asturias. Sin embargo, con la apertura a los mercados internacionales y la llegada de carbones extranjeros, la rentabilidad de las minas asturianas cayó aún más. A finales del siglo pasado, la reconversión del sector se volvió inaplazable. Los mineros jugaron entonces su mejor baza: su incomparable capacidad de movilización.</p>
  <p>Desde los noventa hasta la actualidad, los llamados &ldquo;planes del carbón&rdquo; han tratado de buscar una salida a la economía de la región. Decenas de miles de mineros se han beneficiado de las prejubilaciones; Asturias entera de las infraestructuras, becas y subvenciones de los Fondos Mineros. Todo ello gracias al poder que los trabajadores han conseguido articular a través de los sindicatos.</p></div>
 
  <div class="box cap0-cuencas">

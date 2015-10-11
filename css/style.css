@@ -15,7 +15,7 @@ h1,h2,h3,h4,
 .fancy-font,
 .minititulo,
 h3.side,
-.top-nav li {
+.top-nav {
     font-family: "Old Standard TT", serif;
 }
 /* Formato */
@@ -59,6 +59,9 @@ header {
     background-size: cover;
     background-position:bottom center;
     height:100%;
+}
+.inicio header, .cap1 header, .cap2 header, .cap3 header {
+    min-height:200px;
 }
 header .banner {
     text-shadow: #333 0 0 5px;
@@ -118,9 +121,9 @@ footer p.copyright {
 .seccion > p, .seccion > blockquote, .seccion > hr, .seccion > h3 {
     margin: 0 0 1rem auto;
 }
-.seccion > p, .seccion > blockquote {
-	font-size:1.3rem;
-	line-height: 1.9rem;
+.seccion > p, .seccion > blockquote, .entrevista p, .p-size {
+	font-size:1.2rem;
+	line-height: 1.7rem;
 }
 .seccion > p.p-big {
     font-size: 2rem;
@@ -140,7 +143,7 @@ footer p.copyright {
     margin-top:48px;
     margin-bottom:24px;
 }
-.entrevista {
+/*.entrevista {
     background-color:whitesmoke;
     padding:5rem 0;
 }
@@ -161,13 +164,14 @@ footer p.copyright {
 }
 .entrevista img {
     border-radius: 3px;
-}
+}*/
 /* Banners y parallax */
 .banner {
    position: relative;
    background-size: cover;
    color:whitesmoke;
    clear:both;
+   background-color:black;
 }
 .banner .container {
    height:100%;
@@ -343,11 +347,111 @@ section {
    margin-left:0;
 }*/
 
+/* Capítulo 2 */
+.clearboth-after::after {
+   display:block;
+   content:" ";
+   clear:both;
+}
+
+.entrev-b {
+   background-color: black;
+   color:whitesmoke;
+}
+.entrev-b blockquote {
+   font-size:1.7rem;
+   text-transform: italic;
+   padding:2rem;
+   background-color:whitesmoke;
+   color:#333;
+   margin-bottom:0;
+   transition: 500ms ease;
+}
+.entrev-b.button-link-hover blockquote {
+   background-color: #ccc;
+}
+.entrev-b img {
+   float:left;
+   width:26%;
+   margin-right:4%
+}
+.entrevista .entrev-b img {
+   margin-left:-26%;
+}
+.entrevista .entrev-b-prendes img {
+   margin-right:-26%;
+}
+.entrev-b-prendes img {
+   float:right;
+   margin-right:0;
+   margin-left:4%;
+}
+.entrev-b .entrev-b-datos {
+   margin: 0 4%;
+   padding: 4% 0;
+}
+.entrev-b-banner .dos-bloque {
+   width:48%;
+}
+.entrev-b-banner .dos-bloque:first-of-type {
+   margin-right:4%;
+}
+.entrev-nombre {
+   font-weight: bold;
+   margin-bottom:.2rem;
+}
+
+/* Capítulo 2: entrevistas */
+
+.entrevista .box {max-width:600px;}
+.entrevista .box.container {
+   padding-top:6rem;
+   padding-bottom:6rem;
+}
+.entrevista header {margin-bottom:4rem}
+.entrevista h2 {margin-bottom:3rem}
+.entrevista blockquote {
+   font-size:1.6rem;
+   margin:3rem;
+   text-align:center;
+   width: 50%;
+}
+.entrevista blockquote:nth-of-type(odd) {
+   margin-left: -25%;
+   float: left;
+}
+.entrevista blockquote:nth-of-type(even) {
+   margin-right: -25%;
+   float: right;
+}
+.entrevista p.pregunta {
+   font-weight: bold;
+}
+/*.entrevista .entrev-b {
+   font-size:1.2rem;
+}*/
+
 /* Capítulo 3 */
 .box.epilogo {
    min-height: 300px;
    background: black;
 }
+hr.separador {
+  margin-top:6rem;
+  margin-bottom:6rem;
+  border:0;
+}
+hr.separador::after {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 0;
+  width: 48px;
+  height: 2px;
+  background-color: #333;
+  content: " ";
+}
+
 /* Fin capítulos */
 
 .side h3, .minititulo {
@@ -360,6 +464,9 @@ section {
    font-family: "Old Standard TT", serif;
    font-style:italic;
    margin-bottom: 12px;
+}
+.side-card-index-entrevistas {
+   margin-top: 3rem;
 }
 .ul_centered li {
 	margin-bottom: .8em;
@@ -382,9 +489,7 @@ hr {
 h3.caption {
     max-width:inherit;
 }
-.tabla .overflow {
-   overflow:scroll;
-}
+
 
 /* Otras cosas */
 h3 {
@@ -440,6 +545,9 @@ div.tableauembed {
 }
 .keepaspectratio-out.epilogo:after {
     padding-top: 35% !important; /* aspect ratio */
+}
+.keepaspectratio-out.ratio-16-9:after {
+    padding-top: 56% !important; /* aspect ratio */
 }
 /*.banner1 .keepaspectratio-out:after {
     padding-top: 80% !important; /* aspect ratio
@@ -546,11 +654,8 @@ body.cap3 .top-nav .cap3 a,
       outline:none;
       margin-top: 4px;
    }
-   nav .dropdown:after {
-       content: '▲';
-   }
-   n:after{
-   	 content:'▼'
+   .tabla .overflow {
+      overflow:scroll;
    }
 }
 /* Otros */
@@ -712,20 +817,37 @@ body.inicio hgroup.header, .bloquederecha {
        width:100%;
        max-width:100%;
     }
+    .entrevista blockquote {
+      width:100%;
+      float:none !important;
+      margin:3rem 0 !important;
+   }
+   .entrevista h1 {
+      display:none;
+   }
+   .entrevista .entrev-b img {
+      margin-left:-26%;
+   }
+   .entrevista .entrev-b-prendes img {
+      margin-right:-26%;
+   }
 }
 
 /* Tablets pequeñas */
 @media screen and (max-width:720px) {
    .dos .dos-bloque {
-     float: none;
+     float: none !important;
      text-align: left;
      max-width: 600px;
      margin-left: auto;
-     width: 100%;
+     width: 100% !important;
      margin-right:0 !important;
+     margin-bottom:3rem
    }
-   .dos .dos-bloque {
-      margin-bottom:3rem
+   .dos .dos-bloque::after {
+      display:block;
+      content:" ";
+      clear:both;
    }
 }
 
@@ -776,13 +898,13 @@ body.inicio hgroup.header, .bloquederecha {
 .cap2 .siguiente, .manana .banner {
    -webkit-filter: grayscale(1);
 }
-.siguiente-hover:hover {
+.button-link-hover:hover {
    cursor:pointer;
 }
-.siguiente-hover .container {
+.siguiente .container, .button-link {
    transition: ease 500ms;
 }
-.siguiente-hover .container:hover {
+.button-link-hover .container:hover {
     background-color: rgba(0,0,0,.8);
 }
 

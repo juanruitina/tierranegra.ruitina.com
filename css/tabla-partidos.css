@@ -9,10 +9,10 @@
            transition: ease 500ms;
 }
 
-td.partidos-psoe, li.partidos-psoe>span {background:#D01408}
-td.partidos-iu, li.partidos-iu>span {background:#FC8511}
-td.partidos-pp, li.partidos-pp>span {background:#1F727A}
-td.partidos-otros, li.partidos-otros>span {background:#52910E}
+td.partidos-psoe, li.partidos-psoe>span {background-color:#D01408}
+td.partidos-iu, li.partidos-iu>span {background-color:#52910E} /* naranja */
+td.partidos-pp, li.partidos-pp>span {background-color:#1F727A}
+td.partidos-otros, li.partidos-otros>span {background-color:#FC8511}
 
 td.partidos-desconocido {
    background:gray;

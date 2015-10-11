@@ -317,6 +317,27 @@
    <p>Esta entrevista figura en el diario de sesiones de la comisión parlamentaria que investigó el caso a principios de este año. De ser ciertas estas declaraciones, dejan intuir el posible alcance de la corrupción dentro de la minería asturiana. De hecho, la lista de casos no termina ahí: han sido también investigados el <a href="http://www.lne.es/gijon/2014/02/18/juan-miguel-benitez-pasaba-mina/1544660.html">uso fraudulento</a> de las ayudas a la producción en la mina de la Camocha, en Gijón, en fechas tan tempranas como 1998, y la <a href="http://economia.elpais.com/economia/2015/03/29/actualidad/1427651231_666625.html">cotización irregular de los directivos del carbón</a> como mineros de interior en León.</p>
   </div>
 
+  <div class="entrev-b-banner box dos" id="entrevistas">
+     <h3 class="minititulo">Las entrevistas</h3>
+     <div class="entrev-b entrev-b-alperi dos-bloque button-link">
+        <blockquote>&ldquo;Un control más riguroso de los fondos habría producido otros resultados, estoy convencido&rdquo;</blockquote>
+        <img src="img/entrevistas/avatar-alperi.jpg" class="entrev-avatar" />
+        <div class="entrev-b-datos">
+           <div class="entrev-nombre"><a href="entrevista-alperi">José Luis Alperi</a></div>
+           <div class="entrev-cargo">Secretario General del SOMA-UGT-FITAG</div>
+        </div>
+     </div>
+     <div class="entrev-b entrev-b-prendes dos-bloque button-link">
+        <blockquote>&ldquo;La gestión de los fondos mineros es el gran fracaso de la clase política asturiana&rdquo;</blockquote>
+        <img src="img/entrevistas/avatar-prendes.jpg" class="entrev-avatar" />
+        <div class="entrev-b-datos">
+           <div class="entrev-nombre"><a href="entrevista-prendes">José Ignacio Prendes</a></div>
+           <div class="entrev-cargo">Diputado en la Junta Gral. del Principado</div>
+        </div>
+     </div>
+     <div class="clearboth"></div>
+  </div>
+
   <div class="banner siguiente" style="background-image: url(img/panorama.jpg);background-position:bottom" >
      <div class="container">
         <div class="content-a">

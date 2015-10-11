@@ -31,7 +31,7 @@
    <p>La financiación de proyectos empresariales generadores de empleo, uno de los pilares de los planes de desarrollo alternativo de las Cuencas, no ha sido un gran éxito. De los cincuenta y dos proyectos participados por Hunosa, ha fracasado una cuarta parte. Estos proyectos recibieron 106 millones de euros en ayudas, no solo de fondos mineros, sino también del Principado de Asturias y del Instituto de Desarrollo Económico del Principado, el IDEPA. Hunosa ha conseguido recuperar las cantidades prestadas, pero las ayudas se concedieron a fondo perdido.</p>
 </div>
 <div class="box banner-tabla banner-tabla-empresas">
-   <h3 class="minititulo">Las empresas más subvencionadas, en quiebra</h3>
+   <h3 class="minititulo">El fiasco de las empresas más subvencionadas</h3>
    <style>
       .tabla-empresas table {
          width: 100%;
@@ -196,29 +196,39 @@
     La ligera mejora del empleo en las Cuencas (un 4%) no se compensa ni de lejos con la pérdida de población en las últimas décadas (un 17%). De hecho, sus municipios siguen liderando en desempleo. La mitad del camino andado desde la aprobación del primer plan de desarrollo hasta 2007 se ha perdido desde el estallido de la crisis, al mismo tiempo que la población caía de forma aún más acusada.</p>
    <p>
     Además, es necesario mirar más allá: conforme la minería se replegaba en los últimos años crecía proporcionalmente el sector servicios, altamente dependiente de las pensiones. En junio de 2015, los jubilados de la minería cobraban un 75% más que el jubilado medio. De hecho, las pensiones del carbón suponen una tercera parte de la renta comarcal, y un 40% de esas pensiones es percibido por mayores de 75 años.</p>
-    <style>
-    hr.separador {
-      margin-top:6rem;
-      margin-bottom:6rem;
-      border:0;
-    }
-    hr.separador::after {
-      display: block;
-      margin-top: 12px;
-      margin-bottom: 12px;
-      margin-right: 0;
-      width: 48px;
-      height: 2px;
-      background-color: #333;
-      content: " ";
-   }
-   </style>
-   <hr class="separador" />
-<!--</div>
-<div class="box epilogo" style="text-align:center;">
-   <h2>Epílogo</h2>
 </div>
-<div class="seccion centrada">-->
+
+<div class="entrev-b-banner box dos" id="entrevistas">
+   <h3 class="minititulo">La reconversión en las Cuencas: logros y fracasos</h3>
+   <div class="entrev-b entrev-b-alperi dos-bloque">
+      <div class="video">
+         <div class="keepaspectratio-out ratio-16-9">
+           <iframe class="keepaspectratio-in" width="100%" height="100%" src="https://www.youtube.com/embed/5vS4-rWegWE?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+     </div>
+      <div class="entrev-b-datos">
+         <div class="entrev-nombre">José Luis Alperi</div>
+         <div class="entrev-cargo">Secretario General del SOMA-UGT-FITAG</div>
+      </div>
+   </div>
+   <div class="entrev-b entrev-b-prendes dos-bloque">
+      <div class="video">
+         <div class="keepaspectratio-out ratio-16-9">
+           <iframe class="keepaspectratio-in" width="100%" height="100%" src="https://www.youtube.com/embed/rPQUh-thSZM?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+     </div>
+     <div class="entrev-b-datos">
+         <div class="entrev-nombre">José Ignacio Prendes</div>
+         <div class="entrev-cargo">Diputado en la Junta Gral. del Principado</div>
+      </div>
+   </div>
+   <div class="clearboth"></div>
+</div>
+
+<div class="seccion">
+
+   <hr class="separador" />
+
    <p>Algún día antes del 31 de diciembre de 2018 el último pozo echará el cierre, poniendo así fin a casi dos siglos de actividad minera. La minería dio empleo durante décadas, atrajo a inmigrantes de toda España y creó riqueza. Por muy pobre que fuera la calidad del carbón asturiano, los mineros fueron pieza fundamental de la industrialización española y cruciales en la lucha por los derechos laborales y sociales de todo el país que aún hoy se conservan.</p>
    <p>No hace falta ser adivino para ver cómo serán las Cuencas entonces. Con la gran mayoría de los mineros ya prejubilados —afortunadamente con mejor salud que sus antecesores—, sus rentas desaparecerán progresivamente con ellos. Las iniciativas para crear puestos de trabajo han sido insuficientes para cubrir los empleos de la minería, por lo que el éxodo hacia las principales ciudades asturianas seguirá mermando su demografía. La demanda generada por las pensiones sostendrá el nutrido sector servicios comarcal solo un par de décadas más. Si las tendencias no consiguieron invertirse ni con el empleo de las milmillonarias ayudas, es prácticamente imposible que se logre en los tres años que quedan, cuando el plan del carbón vigente ya lo es de cierre.</p>
    <p>Las cifras y la economía son a veces frías, pero tras estas se encuentran muchas personas: trabajadores, pensionistas, jóvenes, políticos, contribuyentes. Todos pueden sentirse decepcionados. Algunos, incluso culpables. El intento de reconversión ha sido fallido a todas luces, y solo las palabras pueden explicar su mayor suspenso: la gestión política. No es de extrañar que las políticas de desarrollo hayan sido un fracaso estrepitoso. El monopolio del poder político y sindical en Asturias ha sido la herramienta, pero también un veneno sin antídoto. Si todos los colectivos afectados hubiesen comprendido el elevado coste de oportunidad de estas malas prácticas y los agentes implicados en la toma de decisiones hubiesen sido más diversos, seguramente habrían demandado un mayor control del uso de los fondos y habrían corregido las deficiencias de los planes del carbón durante esos veintisiete años en que pudieron hacerlo. Incluso podrían haberse discutido e intentado otras formas de mejorar sus perspectivas de futuro.</p>
@@ -234,6 +244,7 @@
     <div class="box">
       <p><a href="/" class="fancy-font">Donde la tierra era negra</a> es un reportaje elaborado por Juan Ángel Donaire Ruitiña. Fue presentado en octubre de 2015 como Trabajo de Fin de Grado de Periodismo.</a>
       <p>Todos los datos utilizados están disponibles en <a href="">esta hoja de cálculo</a>.</p>
+      <p>Voz: <a href="http://gomezpozo.com/">Oscar Gómez</a>
       <p>¿Opiniones? Házmelas llegar <a href="http://twitter.com/juanruitina">vía Twitter</a> o mándame un correo a <i><a href="mailto:juan@ruitina.com">juan@ruitina.com</a></i>.</p>
       <p class="fancy-font">Creative Commons <a href="http://creativecommons.org/licenses/by-sa/3.0/es/" title="Reconocimiento-Compartir igual">BY-SA</a></p>
     </div>
@@ -242,6 +253,14 @@
   <?php include('includes/footer.php'); ?>
 
   <script src="js/jquery.stellar.min.js"></script>
+
+  <script>
+  /* Parallax */
+  if ($(window).width() >= 800) {
+     $(window).stellar();
+  };
+  </script>
+
   <!--<script src="js/jquery.tablesorter.js"></script>
   <script>
   $(document).ready(function()
