@@ -273,6 +273,15 @@ section {
 	font-size:1em;
    font-style: italic;
 }
+.soundcite-play:before, .soundcite-pause:before {
+   font-size: 0.8em;
+   top: 0;
+}
+.soundcite-loaded:before {
+   vertical-align: 0%;
+   margin-right: 0;
+   margin-left: .2em;
+}
 /* Gráficos */
 .grafico-creditos {
    font-size: .8em;
@@ -340,6 +349,11 @@ section {
 .dos {margin-top:5rem;margin-bottom:6rem;}
 .dos .dos-bloque {width:47%; float:left;}
 .dos .dos-bloque:first-of-type {margin-right:6%}
+
+.tres {margin-top:5rem;margin-bottom:6rem;}
+.tres .tres-bloque {width:30.666%; float:left;margin-right:4%}
+.tres .tres-bloque:last-of-type {margin-right:0%}
+
 .cita blockquote {font-size:1.7rem;}
 
 /*.banner-tabla table {
@@ -374,12 +388,6 @@ section {
    float:left;
    width:26%;
    margin-right:4%
-}
-.entrevista .entrev-b img {
-   margin-left:-26%;
-}
-.entrevista .entrev-b-prendes img {
-   margin-right:-26%;
 }
 .entrev-b-prendes img {
    float:right;
@@ -452,6 +460,13 @@ hr.separador::after {
   content: " ";
 }
 
+.cap3-graficos {
+   margin-bottom:5rem;
+}
+.cap3-graficos .grafico-creditos {
+   margin-top:1rem;
+}
+
 /* Fin capítulos */
 
 .side h3, .minititulo {
@@ -509,15 +524,15 @@ iframe.tableauViz {
     display: block;
     position: relative;
 }
-div.tableauembed {
+/*div.tableauembed {
     margin-top:3rem;
     margin-bottom:3rem;
 }
 .tableauembed:after {
-    padding-top: 100%; /* aspect ratio */
+    padding-top: 100%;
     display: block;
     content: '';
-}
+}*/
 /*.grafico.tableauembed:after {
     padding-top: 50%; /* aspect ratio
 }
@@ -783,6 +798,12 @@ body.inicio hgroup.header, .bloquederecha {
    .margin-top-small {
       margin-top:2rem !important;
    }
+   .entrevista .entrev-b img {
+      margin-left:-26%;
+   }
+   .entrevista .entrev-b-prendes img {
+      margin-right:-26%;
+   }
 }
 @media screen and (max-width:1000px) {
     .box, .seccion, .fullwidth {
@@ -825,17 +846,11 @@ body.inicio hgroup.header, .bloquederecha {
    .entrevista h1 {
       display:none;
    }
-   .entrevista .entrev-b img {
-      margin-left:-26%;
-   }
-   .entrevista .entrev-b-prendes img {
-      margin-right:-26%;
-   }
 }
 
 /* Tablets pequeñas */
 @media screen and (max-width:720px) {
-   .dos .dos-bloque {
+   .dos .dos-bloque, .tres .tres-bloque {
      float: none !important;
      text-align: left;
      max-width: 600px;
@@ -844,7 +859,7 @@ body.inicio hgroup.header, .bloquederecha {
      margin-right:0 !important;
      margin-bottom:3rem
    }
-   .dos .dos-bloque::after {
+   .dos .dos-bloque::after, .tres .tres-bloque::after {
       display:block;
       content:" ";
       clear:both;

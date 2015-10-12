@@ -45,11 +45,8 @@
       </ul>
     </div>
 
-<p><!--<?php
-  $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
-  echo "<a href='$url'>back</a>";
-?>--> Desde hace dos siglos, Asturias ha sido la principal región productora de carbón en España. El carbón asturiano no es de gran calidad, pero la crónica falta de recursos energéticos de nuestro país convirtió su explotación en una necesidad desde los primeros intentos de industrialización. Cientos de miles de personas han vivido por generaciones de la industria extractiva en los valles del río Nalón y Caudal, en el centro-sur de Asturias. Sin embargo, con la apertura a los mercados internacionales y la llegada de carbones extranjeros, la rentabilidad de las minas asturianas cayó aún más. A finales del siglo pasado, la reconversión del sector se volvió inaplazable. Los mineros jugaron entonces su mejor baza: su incomparable capacidad de movilización.</p>
- <p>Desde los noventa hasta la actualidad, los llamados &ldquo;planes del carbón&rdquo; han tratado de buscar una salida a la economía de la región. Decenas de miles de mineros se han beneficiado de las prejubilaciones; Asturias entera de las infraestructuras, becas y subvenciones de los Fondos Mineros. Todo ello gracias al poder que los trabajadores han conseguido articular a través de los sindicatos.</p></div>
+<p>Desde hace dos siglos, Asturias ha sido la principal región productora de carbón en España. El carbón asturiano no es de gran calidad, pero la crónica falta de recursos energéticos de nuestro país convirtió su explotación en una necesidad desde los primeros intentos de industrialización. Cientos de miles de personas han vivido por generaciones de la industria extractiva en los valles del río Nalón y Caudal, en el centro-sur de Asturias. Sin embargo, con la apertura a los mercados internacionales y la llegada de carbones extranjeros, la rentabilidad de las minas asturianas cayó aún más. A finales del siglo pasado, la reconversión del sector se volvió inaplazable. Los mineros jugaron entonces su mejor baza: su incomparable capacidad de movilización.</p>
+<p>Desde los noventa hasta la actualidad, los llamados &ldquo;planes del carbón&rdquo; han tratado de buscar una salida a la economía de la región. Decenas de miles de mineros se han beneficiado de las prejubilaciones; Asturias entera de las infraestructuras, becas y subvenciones de los fondos mineros: todo ello gracias al poder que los trabajadores han conseguido articular a través de los sindicatos.</p></div>
 
  <div class="box cap0-cuencas">
     <h3 class="minititulo">Las Cuencas Mineras</h3>
@@ -73,7 +70,7 @@
     <div class="clearboth"></div>
 </div>
 <div class="seccion margin-top-small">
-   <p>Hoy viven en las Cuencas más de 140.000 personas. De ellas, apenas trabaja un tercio: las tasas de desempleo son más altas que en el resto de la comunidad, y la población está más envejecida. Nadie dijo que despedirse del carbón fuera a ser fácil, y ni siquiera la situación de partida era buena. ¿Han funcionado los planes del carbón? ¿Qué se pudo haber hecho mejor? Para entenderlo es necesario echar la vista atrás.</p>
+   <p>Hoy viven en las Cuencas más de 140.000 personas. De ellas, apenas trabaja un tercio: las tasas de desempleo son más altas que en el resto de la comunidad —una de cada cuatro personas está en paro—, y la población está aún más envejecida que en el resto de Asturias. Nadie dijo que despedirse del carbón fuera a ser fácil, y ni siquiera la situación de partida era buena. Después de tanta lucha y de tantas políticas, ¿habrán funcionado los planes del carbón? ¿Qué se pudo haber hecho mejor? Para entenderlo es necesario echar la vista atrás.</p>
 </div>
 
   <div class="banner siguiente" style="background-image: url(img/puno.jpg);background-position:top right" >
@@ -91,21 +88,6 @@
 </div>
 
   <?php include('includes/footer.php'); ?>
-
-  <link href='//cdn.knightlab.com/libs/soundcite/latest/css/player.css' rel='stylesheet' type='text/css'>
-  <script type='text/javascript' src='//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js'></script>
-
-  <style>
-   .soundcite-play:before, .soundcite-pause:before {
-      font-size: 0.8em;
-      top: 0;
-   }
-   .soundcite-loaded:before {
-      vertical-align: 0%;
-      margin-right: 0;
-      margin-left: .2em;
-   }
-  </style>
 
 </body>
 </html>
