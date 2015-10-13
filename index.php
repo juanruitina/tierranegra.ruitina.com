@@ -14,7 +14,7 @@
                   <div id="texto" class="box">
                      <hgroup class="header bloquederecha">
                         <h1><a href="#start" class="smooth">Donde la tierra era negra</a></h1>
-                        <p class="subtitle description">En 2018, tras siglo y medio de reclamar sudor y sangre, la minería asturiana del carbón deberá echar el cierre. Las Cuencas Mineras han recibido miles de millones para reconvertir su economía. ¿Lo habrán conseguido?</p>
+                        <p class="subtitle description">En 2018, tras siglo y medio reclamando sudor y sangre, la minería asturiana deberá echar el cierre. Las Cuencas Mineras han recibido miles de millones para reconvertir su economía. ¿Lo habrán conseguido?</p>
                         <p class="subtitle fancy-font margin-bottom-none"><em>Un reportaje de <!--<a href="http://juanruitina.com">-->Juan Ángel Donaire Ruitiña<!--</a>--></em></p>
                      </hgroup>
                   </div>
