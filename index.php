@@ -31,18 +31,22 @@
 
   <p class="p-big"><strong><span class="soundcite" data-url="media/intro.mp3" data-start="0" data-end="49000" data-plays="1">Es nochevieja de 2018</span>, en un piso en el centro de Mieres.</strong> La  familia se junta para comer las uvas. El chaval no tiene trabajo, pero es buen  día para dejar de lado esas preocupaciones. Los padres se han hecho cargo del  ágape: el marisco, asturiano, estaba delicioso; el cordero se quemó un poco,  pero sabía a gloria. El brindis de rigor —con sidra El Gaitero— despide el año.  Y con la primera uva ya en ristre, el abuelo tiene la mirada perdida. Después  de tanto pelear, se dice a sí mismo, nadie ha podido evitar el cierre de la  mina que le dio trabajo, la última que quedaba. La misma en la que murieron  tantos compañeros por dar de comer a sus hijos. La misma que dio de comer, de  hecho, a todos los que, ante él y la tele, se preparan para dar la bienvenida  al año nuevo mientras suena el carrillón en la Puerta del Sol.</p>
 
-  <div class="side card index">
+  <div class="side card index clearboth-after">
+     <div>
       <h3>Índice</h3>
       <ul>
         <li class="cap1 lucha"><a href="lucha">La lucha de todos</a></li>
         <li class="cap2 triunfo"><a href="triunfo">El triunfo de algunos</a></li>
         <li class="cap3 manana"><a href="manana">Las Cuencas de mañana</a></li>
       </ul>
-      <h3 class="side-card-index-entrevistas">Entrevistas</h3>
+     </div>
+     <div class="side-index-entrevistas">
+      <h3>Entrevistas</h3>
       <ul>
         <li><a href="entrevista-alperi">José Luis Alperi</a></li>
         <li><a href="entrevista-prendes">José Ignacio Prendes</a></li>
       </ul>
+   </div>
     </div>
 
 <p>Desde hace dos siglos, Asturias ha sido la principal región productora de carbón en España. El carbón asturiano no es de gran calidad, pero la crónica falta de recursos energéticos de nuestro país convirtió su explotación en una necesidad desde los primeros intentos de industrialización. Cientos de miles de personas han vivido por generaciones de la industria extractiva en los valles del río Nalón y Caudal, en el centro-sur de Asturias. Sin embargo, con la apertura a los mercados internacionales y la llegada de carbones extranjeros, la rentabilidad de las minas asturianas cayó aún más. A finales del siglo pasado, la reconversión del sector se volvió inaplazable. Los mineros jugaron entonces su mejor baza: su incomparable capacidad de movilización.</p>

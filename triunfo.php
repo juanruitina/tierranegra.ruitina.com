@@ -17,6 +17,7 @@
               <div class="bloquederecha">
                  <div class="minititulo">Capítulo 2</div>
                  <h2><a href="#start" class="smooth">El triunfo de algunos</a></h2>
+                 <p class="subtitle description">Monopolio del poder y descontrol: con su tolerancia, los sindicatos, el gobierno del Principado y Madrid favorecieron las corruptelas que salpican la gestión de los fondos mineros.</p>
               </div>
              </div>
           </div>
@@ -315,7 +316,7 @@
 
    <p>Esta entrevista figura en el diario de sesiones de la comisión parlamentaria que investigó el caso a principios de este año. De ser ciertas estas declaraciones, dejan intuir el posible alcance de la corrupción dentro de la minería asturiana. El informe final de la comisión, que no fue aprobado en el parlamento asturiano, solo pudo probar que la concesión de 27 millones de euros al Montepío había sido irregular por tratarse este de una identidad privada, pero señala indicios del origen de la fortuna de Villa y denuncia el descontrol y la connivencia de todos los agentes. <span class="soundcite" data-url="media/prendes-pujol.mp3" data-start="0" data-plays="1">"El caso Villa es el caso Pujol asturiano"</span>, defiende José Ignacio Prendes, que presidió la comisión.</p>
 
-   <p>De cualquier modo, caso Villa no es el primer escándalo de corrupción en torno a los fondos: con anterioridad al caso Villa, han sido también investigados el <a href="http://www.lne.es/gijon/2014/02/18/juan-miguel-benitez-pasaba-mina/1544660.html">uso fraudulento</a> de las ayudas a la producción en la mina de la Camocha, en Gijón, en fechas tan tempranas como 1998, y la <a href="http://economia.elpais.com/economia/2015/03/29/actualidad/1427651231_666625.html">cotización irregular de los directivos del carbón</a> como mineros de interior en León.</p>
+   <p>De cualquier modo, caso Villa no es el primer escándalo de corrupción en torno a los fondos: también han sido investigados el <a href="http://www.lne.es/gijon/2014/02/18/juan-miguel-benitez-pasaba-mina/1544660.html">uso fraudulento</a> de las ayudas a la producción en la mina de la Camocha, en Gijón, en fechas tan tempranas como 1998, y la <a href="http://economia.elpais.com/economia/2015/03/29/actualidad/1427651231_666625.html">cotización irregular de los directivos del carbón</a> como mineros de interior en León.</p>
   </div>
 
   <div class="entrev-b-banner box dos" id="entrevistas">

@@ -16,6 +16,7 @@
             <div id="texto" class="box">
               <div class="minititulo">Capítulo 1</div>
               <h2><a href="#start" class="smooth">La lucha de todos</a></h2>
+              <p class="subtitle description">Los mineros del carbón, claves para el movimiento obrero español, consiguieron con una incomparable capacidad de movilización su último gran logro: los fondos mineros.</p>
              </div>
           </div>
        </div>

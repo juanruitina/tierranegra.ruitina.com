@@ -102,6 +102,7 @@ p.subtitle {
     font-weight:400;
     font-size: 1.2rem;
     line-height: 1.8rem;
+    max-width:600px;
 }
 .subtitle a {
     border-bottom-color: #333;
@@ -173,6 +174,14 @@ footer p.copyright {
    clear:both;
    background-color:black;
 }
+
+/* Fix iPad */
+@media only screen and (max-device-width : 1024px)  {
+   .banner {
+       background-attachment: scroll !important;
+   }
+}
+
 .banner .container {
    height:100%;
 }
@@ -256,6 +265,9 @@ section {
 }*/
 
 /* Capítulo 0: inicio */
+.side.index > div {
+   float:left;
+}
 .cap0-cuencas .mapa {
    float:left;
 }
@@ -475,12 +487,12 @@ hr.separador::after {
 	margin-bottom:1.2rem;
 	text-transform: uppercase;
 }
-.side.card.index li {
+.side.index li {
    font-family: "Old Standard TT", serif;
    font-style:italic;
    margin-bottom: 12px;
 }
-.side-card-index-entrevistas {
+.side-index-entrevistas h3 {
    margin-top: 3rem;
 }
 .ul_centered li {
@@ -505,6 +517,17 @@ h3.caption {
     max-width:inherit;
 }
 
+.social  {display: block;}
+.social > div {display: inline-block;}
+.fb_iframe_widget_fluid {
+  display: inline-block !important;
+}
+.share-button {
+	margin-right:1rem;
+	float:left;
+   margin-bottom:1rem;
+   min-height:23px;
+}
 
 /* Otras cosas */
 h3 {
@@ -806,6 +829,19 @@ body.inicio hgroup.header, .bloquederecha {
    }
 }
 @media screen and (max-width:1000px) {
+   .seccion > p, .seccion > blockquote, .seccion > hr, .seccion > h3, footer > .box
+   body.inicio hgroup.header, .bloquederecha,
+   .side,
+   .banner-video .side,
+   .banner-tabla .side,
+   .banner-tabla h3,
+   .cap0-cuencas .side,
+   .cap0-cuencas .mapa,
+   .cap0-cuencas h3,
+   .banner-video .video, .banner-tabla .tabla  {
+      margin-left: auto;
+      margin-right: auto;
+   }
     .box, .seccion, .fullwidth {
         padding-left:6%;
         padding-right:6%;
@@ -832,7 +868,7 @@ body.inicio hgroup.header, .bloquederecha {
       max-width: 600px;
       margin-left: auto;
       width: 100%;
-      margin-right:0 !important;
+      margin-right:auto !important;
     }
     .banner-tabla table {
        width:100%;
@@ -846,6 +882,17 @@ body.inicio hgroup.header, .bloquederecha {
    .entrevista h1 {
       display:none;
    }
+   .side.index {
+      float:none;
+      width:100%;
+   }
+
+}
+
+/* SOLO tablets grandes */
+@media screen and (max-width:1000px) and (min-width:720px) {
+   .side.index h3 {margin-top:0}
+   .side.index > div:first-of-type {margin-right:4rem}
 }
 
 /* Tablets pequeñas */
@@ -856,7 +903,7 @@ body.inicio hgroup.header, .bloquederecha {
      max-width: 600px;
      margin-left: auto;
      width: 100% !important;
-     margin-right:0 !important;
+     margin-right: auto !important;
      margin-bottom:3rem
    }
    .dos .dos-bloque::after, .tres .tres-bloque::after {
@@ -864,6 +911,7 @@ body.inicio hgroup.header, .bloquederecha {
       content:" ";
       clear:both;
    }
+   .side.index > div {float:none;}
 }
 
 /* Phone */

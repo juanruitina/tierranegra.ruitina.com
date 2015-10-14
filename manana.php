@@ -16,6 +16,7 @@
              <div id="manana-texto" class="box">
                 <div class="minititulo">Capítulo 3</div>
                 <a href="#start" class="smooth"><h2>Las Cuencas de mañana</a></h2>
+                <p class="subtitle description">¿Han funcionado los fondos mineros para reconvertir la economía comarcal? Las políticas fallidas y los datos parecen decir que no.</p>
              </div>
           </div>
        </div>
@@ -182,7 +183,7 @@
     </tbody>
    </table>
    </div>
-   <p class="grafico-creditos">Fuente: Sadim Inversiones, La Nueva España, El Comercio, RTPA. Datos aproximados: ¿quieres hacer alguna corrección? Házmela llegar a <i><a href="mailto:juan@ruitina.com">juan@ruitina.com</a></i>.</p>
+   <p class="grafico-creditos">Datos aproximados. Fuente: Sadim Inversiones, La Nueva España, El Comercio, RTPA. ¿Alguna corrección? Házmela llegar a <i><a href="mailto:juan@ruitina.com">juan@ruitina.com</a></i>.</p>
    </div>
 </div>
 <div class="seccion">
@@ -312,13 +313,14 @@
 
 </div>
 
-<div class="epilogo keepaspectratio-out"><div class="keepaspectratio-in" style="background-image:url(img/panoramanoche.jpg);background-size:cover" data-stellar-background-ratio="0.7"></div></div>
+<div class="epilogo keepaspectratio-out"><div class="keepaspectratio-in" style="background-image:url(img/panoramanoche.jpg);background-size:cover" data-stellar-background-ratio="0.9"></div></div>
 
 <div class="creditos">
     <div class="box">
+      <?php include('includes/social.php'); ?>
       <p><a href="/" class="fancy-font">Donde la tierra era negra</a> es un reportaje elaborado por Juan Ángel Donaire Ruitiña. Fue presentado en octubre de 2015 como Trabajo de Fin de Grado de Periodismo.</a>
-      <p>Todos los datos utilizados están disponibles en <a href="">esta hoja de cálculo</a>.</p>
-      <p>Voz: <a href="http://gomezpozo.com/">Oscar Gómez</a>
+      <p>Todos los datos utilizados están disponibles en <a href="https://docs.google.com/spreadsheets/d/1GWdoVi3HzQqRs7ISxMIp5uKEZu45lPcCq7BIMiI8qmg/edit?usp=sharing">esta hoja de cálculo</a>.</p>
+      <p>Voz de la intro: <a href="http://gomezpozo.com/">Oscar Gómez</a>.
       <p>¿Opiniones? Házmelas llegar <a href="http://twitter.com/juanruitina">vía Twitter</a> o mándame un correo a <i><a href="mailto:juan@ruitina.com">juan@ruitina.com</a></i>.</p>
       <p class="fancy-font">Creative Commons <a href="http://creativecommons.org/licenses/by-sa/3.0/es/" title="Reconocimiento-Compartir igual">BY-SA</a></p>
     </div>
