@@ -477,6 +477,7 @@ hr.separador::after {
 }
 .cap3-graficos .grafico-creditos {
    margin-top:1rem;
+   margin-bottom: 0;
 }
 
 /* Fin capítulos */
@@ -602,7 +603,7 @@ iframe.tableauViz {
 .keepaspectratio-out.banner1:after {
    padding-top: 100% !important; /* 56.25% aspect ratio */
 }
-p:last-of-type {
+.seccion p:last-of-type {
     margin-bottom:0;
 }
 
@@ -886,7 +887,11 @@ body.inicio hgroup.header, .bloquederecha {
       float:none;
       width:100%;
    }
-
+   .dos .dos-bloque::after, .tres .tres-bloque::after {
+      display:block;
+      content:"";
+      clear:both;
+   }
 }
 
 /* SOLO tablets grandes */
@@ -904,14 +909,31 @@ body.inicio hgroup.header, .bloquederecha {
      margin-left: auto;
      width: 100% !important;
      margin-right: auto !important;
-     margin-bottom:3rem
-   }
-   .dos .dos-bloque::after, .tres .tres-bloque::after {
-      display:block;
-      content:" ";
-      clear:both;
    }
    .side.index > div {float:none;}
+}
+
+/* SOLO tablets */
+@media screen and (max-width:1000px) and (min-width:520px) {
+   .tres {
+      max-width:600px;
+   }
+   .tres .tres-bloque {
+      float:none;
+      width:100%;
+   }
+   .tres .tres-bloque:nth-child(1)::after,
+   .tres .tres-bloque:nth-child(2)::after {
+      margin-bottom:3rem;
+   }
+   .tres-bloque-caption, .tres-bloque-grafico {
+      float:left;
+      width:60%;
+   }
+   .tres-bloque-caption {
+      width:34%;
+      margin-right:6%
+   }
 }
 
 /* Phone */

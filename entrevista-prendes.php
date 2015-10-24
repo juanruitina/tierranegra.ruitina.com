@@ -16,7 +16,7 @@
      <div class="entrev-b entrev-b-prendes dos-bloque clearboth-after p-size">
        <img src="img/entrevistas/avatar-prendes.jpg" class="entrev-avatar" />
        <div class="entrev-b-datos">
-           <p>En 2011, <strong>José Ignacio Prendes</strong> (Gijón, 1965) entró en el parlamento asturiano por la puerta grande: fue clave en la investidura del gobierno regional pese a ser el único diputado por UPyD. Además, este mismo año presidió la comisión de investigación de la Junta General del Principado sobre el caso Villa y la gestión de los fondos mineros. Reelegido este año en la lista de Ciudadanos, sigue siendo una de las pocas voces críticas en la cámara.</p>
+           <p>En 2011, <strong>José Ignacio Prendes</strong> (Gijón, 1965) entró en el parlamento asturiano por la puerta grande al ser clave, como único diputado de UPyD, en la investidura del gobierno regional. Este mismo año presidió la comisión de investigación de la Junta General del Principado sobre el caso Villa y los fondos mineros. Reelegido este año por Ciudadanos, sigue siendo una de las pocas voces claramente críticas con la gestión de los fondos.</p>
            <p>Prendes recibe en una mañana de pleno en su despacho de la Junta General del Principado, en Oviedo.
        </div>
      </div>
@@ -65,7 +65,7 @@
 
  <p>—Hay un rosario de museos, de casas de cultura… Infraestructuras que no iban ligadas al desarrollo económico, sino que servían fundamentalmente para mantener el poder local en los ayuntamientos gobernados por ese sindicato de la minería y ese partido. Se han gastado millones en infraestructuras que no tuvieron luego una rentabilidad económica asociada, y se han perdido oportunidades. En el tema de formación, ya ni te cuento. A nosotros Fundesfor, que era la fundación que se creó específicamente para gestionar esos fondos, no nos dio ni un papel. Fundesfor es un agujero de opacidad absoluto, y manejó 900 millones de euros. Con el campus de Mieres estamos viendo la rentabilidad que ha llevado asociada: seguramente muy poca.</p>
 
- <blockquote>“El campus de Mieres es uno de los grandes proyectos que se llevó a cabo sin una visión estratégica de toda Asturias”</blockquote>
+ <blockquote>“El campus de Mieres es uno de los grandes proyectos que se llevaron a cabo sin una visión estratégica de toda Asturias”</blockquote>
 
  <p class="pregunta">—Es uno de los grandes proyectos, comparable a la autovía minera.</p>
 

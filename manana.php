@@ -16,7 +16,7 @@
              <div id="manana-texto" class="box">
                 <div class="minititulo">Capítulo 3</div>
                 <a href="#start" class="smooth"><h2>Las Cuencas de mañana</a></h2>
-                <p class="subtitle description">¿Han funcionado los fondos mineros para reconvertir la economía comarcal? Las políticas fallidas y los datos parecen decir que no.</p>
+                <p class="subtitle description">¿Han servido los fondos mineros para reconvertir la economía comarcal? Las políticas fallidas y los datos parecen decir que no.</p>
              </div>
           </div>
        </div>
@@ -195,56 +195,67 @@
 
    <div class="box tres clearboth-after cap3-graficos">
       <div class="tres-bloque">
-         <h3 class="minititulo">El éxodo</h3>
-         <p>Las Cuencas Mineras han perdido un 17% de su población desde 1998: más de 30.000 personas.
-         <div class="tableauembed square keepaspectratio-out">
-            <div class="tableauPlaceholder keepaspectratio-in" style="width: 100%; height: 100%;">
-               <noscript><a href="#"><img alt="Población" src="https://publicrevizit.tableausoftware.com/static/images/Do/Dondelatierraeranegra/Evolucindelapoblacin/1_rss.png" style="border: none"></a></noscript>
-               <object class="tableauViz" height="100%" style="display:none;" width="100%">
-                  <param name="host_url" value="https%3A%2F%2Fpublic.tableausoftware.com%2F">
-                  <param name="site_root" value="">
-                  <param name="name" value="Dondelatierraeranegra/Evolucindelapoblacin">
-                  <param name="tabs" value="no">
-                  <param name="toolbar" value="yes">
-                  <param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Do&#47;Dondelatierraeranegra&#47;Evolucindelapoblacin&#47;1.png">
-                  <param name="animate_transition" value="yes">
-                  <param name="display_static_image" value="yes">
-                  <param name="display_spinner" value="yes">
-                  <param name="display_overlay" value="yes">
-                  <param name="display_count" value="no">
-                  <param name="showVizHome" value="no">
-               </object>
-            </div>
+         <div class="tres-bloque-caption">
+            <h3 class="minititulo">El éxodo</h3>
+            <p>Las Cuencas Mineras han perdido un 17% de su población desde 1998: más de 30.000 personas.
          </div>
-         <p class="grafico-creditos">Fuente: Padrón, INE.</p>
+         <div class="tres-bloque-grafico">
+            <div class="tableauembed square keepaspectratio-out">
+               <div class="tableauPlaceholder keepaspectratio-in" style="width: 100%; height: 100%;">
+                  <noscript><a href="#"><img alt="Población" src="https://publicrevizit.tableausoftware.com/static/images/Do/Dondelatierraeranegra/Evolucindelapoblacin/1_rss.png" style="border: none"></a></noscript>
+                  <object class="tableauViz" height="100%" style="display:none;" width="100%">
+                     <param name="host_url" value="https%3A%2F%2Fpublic.tableausoftware.com%2F">
+                     <param name="site_root" value="">
+                     <param name="name" value="Dondelatierraeranegra/Evolucindelapoblacin">
+                     <param name="tabs" value="no">
+                     <param name="toolbar" value="yes">
+                     <param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Do&#47;Dondelatierraeranegra&#47;Evolucindelapoblacin&#47;1.png">
+                     <param name="animate_transition" value="yes">
+                     <param name="display_static_image" value="yes">
+                     <param name="display_spinner" value="yes">
+                     <param name="display_overlay" value="yes">
+                     <param name="display_count" value="no">
+                     <param name="showVizHome" value="no">
+                  </object>
+               </div>
+            </div>
+            <p class="grafico-creditos">Fuente: Padrón, INE.</p>
+         </div>
       </div>
       <div class="tres-bloque">
-         <h3 class="minititulo">Mismo nivel de empleo</h3>
-         <p>Pese a todas las políticas adoptadas y al desplome demográfico, <abbr title="La tasa global de empleo es el porcentaje de la población total que está trabajando.">la tasa global de empleo</abbr> solo ha aumentado un 3%.</p>
-         <div class="tableauembed square keepaspectratio-out">
-            <div class="tableauPlaceholder keepaspectratio-in" style="width: 100%; height: 100%;">
-               <noscript><a href="#"><img alt="Población" src="https://publicrevizit.tableausoftware.com/static/images/Do/Dondelatierraeranegra/Tasaglobaldeempleo/1_rss.png" style="border: none"></a></noscript>
-               <object class="tableauViz" height="100%" style="display:none;" width="100%">
-                  <param name="host_url" value="https%3A%2F%2Fpublic.tableausoftware.com%2F">
-                  <param name="site_root" value="">
-                  <param name="name" value="Dondelatierraeranegra/Tasaglobaldeempleo">
-                  <param name="tabs" value="no">
-                  <param name="toolbar" value="yes">
-                  <param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Do&#47;Dondelatierraeranegra&#47;Tasaglobaldeempleo&#47;1.png">
-                  <param name="animate_transition" value="yes">
-                  <param name="display_static_image" value="yes">
-                  <param name="display_spinner" value="yes">
-                  <param name="display_overlay" value="yes">
-                  <param name="display_count" value="no">
-                  <param name="showVizHome" value="no">
-               </object>
-            </div>
+         <div class="tres-bloque-caption">
+            <h3 class="minititulo">Mismo nivel de empleo</h3>
+            <p>Pese a todas las políticas adoptadas y al desplome demográfico, <abbr title="La tasa global de empleo es el porcentaje de la población total que está trabajando.">la tasa global de empleo</abbr> solo ha aumentado un 3%.</p>
          </div>
-         <p class="grafico-creditos">Fuente: INE, SADEI.</p>
+         <div class="tres-bloque-grafico">
+            <div class="tableauembed square keepaspectratio-out">
+               <div class="tableauPlaceholder keepaspectratio-in" style="width: 100%; height: 100%;">
+                  <noscript><a href="#"><img alt="Población" src="https://publicrevizit.tableausoftware.com/static/images/Do/Dondelatierraeranegra/Tasaglobaldeempleo/1_rss.png" style="border: none"></a></noscript>
+                  <object class="tableauViz" height="100%" style="display:none;" width="100%">
+                     <param name="host_url" value="https%3A%2F%2Fpublic.tableausoftware.com%2F">
+                     <param name="site_root" value="">
+                     <param name="name" value="Dondelatierraeranegra/Tasaglobaldeempleo">
+                     <param name="tabs" value="no">
+                     <param name="toolbar" value="yes">
+                     <param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Do&#47;Dondelatierraeranegra&#47;Tasaglobaldeempleo&#47;1.png">
+                     <param name="animate_transition" value="yes">
+                     <param name="display_static_image" value="yes">
+                     <param name="display_spinner" value="yes">
+                     <param name="display_overlay" value="yes">
+                     <param name="display_count" value="no">
+                     <param name="showVizHome" value="no">
+                  </object>
+               </div>
+            </div>
+            <p class="grafico-creditos">Fuente: INE, SADEI.</p>
+         </div>
       </div>
       <div class="tres-bloque">
+         <div class="tres-bloque-caption">
          <h3 class="minititulo">Adiós al carbón</h3>
-         <p>Hoy la minería apenas supone un 5% del empleo en las Cuencas. Educación y sanidad han ocupado su lugar.</p>
+         <p>Hoy la minería apenas emplea a un 5% de los ocupados en las Cuencas. Educación y sanidad han ocupado su lugar.</p>
+      </div>
+      <div class="tres-bloque-grafico">
          <div class="tableauembed square keepaspectratio-out">
             <div class="tableauPlaceholder keepaspectratio-in" style="width: 100%; height: 100%;">
                <noscript><a href="#"><img alt="Población" src="https://publicrevizit.tableausoftware.com/static/images/Do/Dondelatierraeranegra/Empleoporsectores/1_rss.png" style="border: none"></a></noscript>
@@ -266,11 +277,12 @@
          </div>
          <p class="grafico-creditos">Fuente: SADEI.</p>
       </div>
+      </div>
    </div>
 
 <div class="seccion">
    <p>La ligera mejora del empleo en las Cuencas no se compensa ni de lejos con la pérdida de población en las últimas décadas. La mitad del camino andado desde la aprobación del primer plan de desarrollo hasta 2007 se ha perdido desde el estallido de la crisis, al mismo tiempo que la población caía de forma aún más acusada. De hecho, sus municipios siguen liderando en desempleo: la tasa de paro se sitúa aproximadamente en el 25%, por encima de la asturiana e incluso la nacional. Conforme la minería se replegaba en los últimos años crecía proporcionalmente el sector servicios, altamente dependiente de las pensiones. Los jubilados de la minería cobran un 75% más que el jubilado medio. De hecho, las pensiones del carbón suponen una tercera parte de la renta comarcal.</p>
-   <p>Además, existe un factor social difícil de medir: las prejubilaciones han modificado el sistema de incentivos de la sociedad de las Cuencas. Por un lado, quienes consiguen retirarse a edades tan tempranas como los 42 años pueden estar en perfectas condiciones de trabajar, lo cual podría implicar un aumento de la economía sumergida. Por el otro, la educación no se ha valorado históricamente del mismo modo en las zonas industriales: encontrar trabajo sin cualificación era fácil. Cuando las familias pueden salir adelante sin que ninguno de sus miembros trabaje, los incentivos de los jóvenes a formarse se reducen, y con ellos sus oportunidades de futuro. Mientras, el campus de Mieres está a un 40% de rendimiento y se ha eliminado el programa de becas financiado con los fondos mineros.</p>
+   <p>Además, existe un factor social difícil de medir: las prejubilaciones han modificado el sistema de incentivos de la sociedad de las Cuencas. Quienes consiguen retirarse a edades tan tempranas como los 42 años pueden estar en perfectas condiciones de trabajar, lo cual podría implicar un aumento de la economía sumergida. Por el otro, la educación no se ha valorado históricamente del mismo modo en las zonas industriales: encontrar trabajo sin cualificación era fácil. Cuando las familias pueden salir adelante sin que ninguno de sus miembros trabaje, los incentivos de los jóvenes a formarse se reducen, y con ellos sus oportunidades de futuro. Mientras, el campus de Mieres está a un 40% de rendimiento y se ha eliminado el programa de becas financiado con los fondos mineros.</p>
 </div>
 
 <div class="entrev-b-banner box dos" id="entrevistas">
@@ -307,7 +319,7 @@
    <p>Algún día antes del 31 de diciembre de 2018 el último pozo echará el cierre, poniendo así fin a casi dos siglos de actividad minera. La minería dio empleo durante décadas, atrajo a inmigrantes de toda España y creó riqueza. Por muy pobre que fuera la calidad del carbón asturiano, los mineros fueron pieza fundamental de la industrialización española y cruciales en la lucha por los derechos laborales y sociales de todo el país que aún hoy se conservan.</p>
    <p>No hace falta ser adivino para ver cómo serán las Cuencas entonces. Con la gran mayoría de los mineros ya prejubilados —afortunadamente con mejor salud que sus antecesores—, sus rentas desaparecerán progresivamente con ellos. Las iniciativas para crear puestos de trabajo han sido insuficientes para cubrir los empleos de la minería, por lo que el éxodo hacia las principales ciudades asturianas seguirá mermando su demografía. La demanda generada por las pensiones sostendrá el nutrido sector servicios comarcal solo un par de décadas más. Si las tendencias no consiguieron invertirse ni con el empleo de las milmillonarias ayudas, es prácticamente imposible que se logre en los tres años que quedan, cuando el plan del carbón vigente ya lo es de cierre.</p>
    <p>Tras las cifras se encuentran muchas personas: trabajadores, pensionistas, jóvenes, políticos, contribuyentes. Todos pueden sentirse decepcionados. Algunos, incluso culpables. El intento de reconversión ha sido fallido a todas luces, y solo las palabras pueden explicar su mayor suspenso: la gestión política. No es de extrañar que las políticas de desarrollo hayan sido un fracaso estrepitoso. El monopolio del poder político y sindical en Asturias ha sido la herramienta, pero también un veneno sin antídoto. Si todos los colectivos afectados hubiesen comprendido el elevado coste de oportunidad de estas malas prácticas y los agentes implicados en la toma de decisiones hubiesen sido más diversos, seguramente habrían demandado un mayor control del uso de los fondos y habrían corregido las deficiencias de los planes del carbón durante esos veintisiete años en que pudieron hacerlo. Incluso podrían haberse discutido e intentado otras formas de mejorar sus perspectivas de futuro.</p>
-   <p>Quizá la inversión en I+D+i debería haber supuesto más que una parte marginal de los fondos, frente a los cientos de millones en infraestructuras cuya utilidad nadie discute, pero cuyo carácter prioritario es cuestionable. Quizá fueran necesarios más fondos y mejor gestión para impulsar más y mejores proyectos generadores de empleo. Quizá aceptar la migración interna habría animado a llevar a cabo más iniciativas de las que se beneficiara toda la comunidad: el eje Oviedo-Gijón-Avilés, cuyo tejido económico y laboral es más sólido, podría haber atraído talento si se hubiese planteado seriamente el objetivo de convertirlo en un polo de innovación y crecimiento.</p>
+   <p>Quizá la inversión en I+D+i debería haber supuesto más que una parte marginal de los fondos, frente a los cientos de millones en infraestructuras cuya utilidad nadie discute, pero cuyo carácter prioritario es cuestionable. Quizá hubiesen sido necesarios más fondos y mejor gestión para impulsar más y mejores proyectos generadores de empleo. Quizá aceptar la migración interna habría animado a llevar a cabo más iniciativas de las que se beneficiara toda la comunidad: el eje Oviedo-Gijón-Avilés, cuyo tejido económico y laboral es más sólido, podría haber atraído talento si se hubiese planteado seriamente el objetivo de convertirlo en un polo de innovación y crecimiento.</p>
    <p>Pero quién sabe: de haber estado el poder repartido entre más manos, quizá ni siquiera se hubieran conseguido las ayudas. Esta paradoja devolverá a las Cuencas Mineras a su punto de partida. En la nochevieja de 2018, el carbón se despedirá puntual y con tranquilidad de aquellos que lo trabajaron y lo sufrieron, pero el futuro de las Cuencas no será mejor tras esa última campanada. Huérfanas, se dormirán poco a poco conforme se vaya disipando el espejismo que provocaron sus últimos años de artificial prosperidad.</p>
 </div>
 

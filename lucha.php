@@ -66,7 +66,8 @@
 <h3>Los planes del carbón</h3>
 <p>Las ayudas a la producción de carbón permiten mantener aún hoy la actividad minera, que emplea todavía a unas 2.500 personas de forma directa en Asturias. Por otro lado, las prejubilaciones permiten a los mineros retirarse a edades tan tempranas como los 42 años —en función de la dureza de su puesto de trabajo— con pensiones elevadas. Así se ha podido reducir la plantilla de Hunosa de forma no traumática, y también mejorar la salud de los trabajadores.</p>
 <div class="side tabla-fondos">
-   <h3>El plan del carbón 1998-2005</h3>
+   <h3>Los fondos mineros en Asturias: 1998-2005</h3>
+   <p>Durante los ocho años del primer plan de desarrollo, Asturias recibió 1.603 millones de euros en ayudas para sus municipios mineros.</p>
    <style>
       @import url(css/tabla-fondos.css);
    </style>
@@ -129,7 +130,7 @@
    <p class="grafico-creditos">Fuente: Sindicatura de Cuentas del Principado de Asturias. No hay datos finales sobre el plan 2006-2012.</p>
 </div>
 
-<p>Pero en 1998, los sindicatos pactan con el gobierno de José María Aznar un acuerdo, el plan del Carbón 1998-2005, con un objetivo mucho más ambicioso: reconvertir la economía de las Cuencas. Con ese fin surgen los célebres fondos mineros: unos 3.000 millones de euros que, a lo largo de dos décadas, trataron de preparar a las comarcas para la desaparición de la minería. Los fondos se repartieron entre infraestructuras —tales como la autovía minera, que costó 800 millones de euros, o el campus de Mieres—, proyectos generadores de puestos de trabajo, becas formativas y proyectos de investigación y desarrollo. En total, se han invertido 22.000 millones desde 1991 entre ayudas a la producción del carbón, prejubilaciones y fondos mineros. Eso sí: a cambio, de autorizar estas ayudas, la Comisión Europea exige que las explotaciones mineras no rentables cierren para el año 2018.</p>
+<p>Pero en 1998, los sindicatos pactan con el gobierno de José María Aznar un acuerdo, el plan del Carbón 1998-2005, con un objetivo mucho más ambicioso: reconvertir la economía de las Cuencas. Con ese fin surgen los célebres fondos mineros: unos 3.000 millones de euros que, a lo largo de dos décadas, trataron de preparar a las comarcas para la desaparición de la minería. Los fondos se repartieron entre infraestructuras —tales como la autovía minera, que costó 600 millones de euros, o el campus de Mieres—, proyectos generadores de puestos de trabajo, becas formativas y proyectos de investigación y desarrollo. En total, se han invertido 22.000 millones desde 1991 entre ayudas a la producción del carbón, prejubilaciones y fondos mineros. Eso sí: a cambio, de autorizar estas ayudas, la Comisión Europea exige que las explotaciones mineras no rentables cierren para el año 2018.</p>
 
 <p>Las negociaciones de todos estos planes fueron acompañadas de huelgas y manifestaciones multitudinarias, siempre respaldadas por la solidaridad de toda la comarca. La minería es también un fenómeno social e identitario. La dureza del trabajo en la mina no es ajena a nadie. La simbología y la emotividad han acompañado a cada reivindicación: <em>Santa Bárbara Bendita</em> es un himno no solo minero, sino también de las Cuencas e incluso de Asturias. Algo parecido ocurre con las canciones del mierense Víctor Manuel dedicadas a la mina —<em>El abuelo</em>, <em>En la planta catorce</em>—. El recuerdo de las vidas que con tanta frecuencia se cobró la tierra está grabada a fuego en el imaginario colectivo de los asturianos: es difícil olvidar accidentes como el del pozo Nicolasa en 1995, cuando catorce mineros fallecieron tras una explosión de grisú.</p>
 </div>

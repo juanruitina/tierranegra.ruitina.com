@@ -7,6 +7,7 @@
   <meta content="yes" name="mobile-web-app-capable" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="/img/icon/launcher-icon-4x.png">
   <link href="manifest.json" rel="manifest" />
   <meta property="og:type" content="article" />
   <meta property="og:image" content="http://tierranegra.ruitina.com/img/castillete.jpg" />

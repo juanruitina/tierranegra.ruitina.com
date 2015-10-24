@@ -43,6 +43,15 @@
 				text-align:right;
 				color:#000000;
 			}
+			@media screen and (max-width:460px) {
+				#g-cuencas-mapa-Mesa_de_trabajo_1 .g-aiPstyle0,
+				#g-cuencas-mapa-Mesa_de_trabajo_1 .g-aiPstyle1,
+				#g-cuencas-mapa-Mesa_de_trabajo_1 .g-aiPstyle2,
+				#g-cuencas-mapa-Mesa_de_trabajo_1 .g-aiPstyle3,
+				#g-cuencas-mapa-Mesa_de_trabajo_1 .g-aiPstyle4 {
+					font-size: 10px !important
+				}
+			}
 		</style>
 		<div id="g-cuencas-mapa-Mesa_de_trabajo_1-graphic">
 			<img id="g-ai0-0" class="g-aiImg" src="img/cap0-mapa.png">
