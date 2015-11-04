@@ -264,6 +264,12 @@ section {
 	box-sizing: border-box;
 }*/
 
+/* Fondos */
+.inicio .banner {
+   background-image: url(../img/castillete.jpg);
+   background-position: center;
+}
+
 /* Capítulo 0: inicio */
 .side.index > div {
    float:left;
@@ -595,7 +601,30 @@ iframe.tableauViz {
     position: absolute !important;
     top: 0; bottom: 0; right: 0; left: 0; /* fill parent */
 }
-
+.boton {
+   display:inline-block;
+   width:auto;
+   padding:4px 6px;
+   border: 1px solid white;
+   border-radius: 4px;
+}
+.boton:hover {
+   background-color:rgba(255,255,255,.3);
+   border-color:white;
+}
+.entrev-b .boton {
+   margin-top: 2%;
+   font-size:.9rem;
+}
+.boton-negro,.boton-negro:hover {
+   border-color:#333;
+}
+.boton-negro:hover {
+   background-color:rgba(0,0,0,.1);
+}
+.entrevista-boton-volver {
+   margin:3rem 0 2rem;
+}
 /* Inicio */
 .keepaspectratio-out.banner1 {
    min-height:100%;
@@ -892,6 +921,9 @@ body.inicio hgroup.header, .bloquederecha {
       content:"";
       clear:both;
    }
+   .inicio .banner {
+      background-position: left;
+   }
 }
 
 /* SOLO tablets grandes */
@@ -909,6 +941,11 @@ body.inicio hgroup.header, .bloquederecha {
      margin-left: auto;
      width: 100% !important;
      margin-right: auto !important;
+   }
+   .dos .dos-bloque:first-of-type,
+   .tres .tres-bloque:first-of-type,
+   .tres .tres-bloque:nth-of-type(2) {
+     margin-bottom:2rem;
    }
    .side.index > div {float:none;}
 }

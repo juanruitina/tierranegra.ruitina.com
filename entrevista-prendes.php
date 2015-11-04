@@ -89,6 +89,10 @@
 
  <p>Para mí, el complejo residencial de mayores de la minería es el estrambote final, es el ejemplo de toda esa gestión. Son los últimos fondos que se adjudican, prácticamente. Y ahí, en esa mesa donde se adjudicó, estaba sentado el consejero de economía del Principado de Asturias, tomando esa decisión. Así que tiene tanta responsabilidad como los sindicatos que también estaban sentados ahí y todo el sistema político asturiano que aceptó eso.</p>
 
+<div class="entrevista-boton-volver">
+ <a class="boton boton-negro" href="/triunfo#entrevistas">← Volver al reportaje</a>
+</div>
+
 <?php include('includes/footer.php'); ?>
 
 </body>

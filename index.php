@@ -7,7 +7,8 @@
   <?php include('includes/header.php'); ?>
   <body class="inicio">
   <header style="height:120vh;">
-      <div class="banner" style="background-image: url(img/castillete.jpg);background-position:left">
+     <!--<?php include('includes/top-nav.php'); ?>-->
+      <div class="banner">
          <div id="caja" class="container fondob">
             <div class="content-a" style="position:absolute" >
                <div class="content-b">
@@ -83,7 +84,8 @@
           <div class="content-b">
               <div class="box">
             <div class="minititulo">Capítulo 1</div>
-            <a href="lucha" class="jscroll-next"><h2>La lucha de todos</h2></a>
+            <a href="lucha"><h2>La lucha de todos</h2></a>
+            <a class="boton" href="lucha">Leer →</a>
            </div>
         </div>
      </div>

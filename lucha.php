@@ -138,7 +138,7 @@
 <div class="banner-video">
     <div class="box">
        <div class="side">
-         <blockquote>En la planta catorce del pozo minero, de la tarde amarilla tres hombres no volvieron. Hay sirenas, lamentos, acompasados ayes a la boca del pozo. Dos mujeres de luto anhelando dos cuerpos y una madre que rumia su agonía en silencio: es el tercero.</blockquote>
+         <blockquote>“En la planta catorce del pozo minero, de la tarde amarilla tres hombres no volvieron. Hay sirenas, lamentos, acompasados ayes a la boca del pozo. Dos mujeres de luto anhelando dos cuerpos y una madre que rumia su agonía en silencio: es el tercero”</blockquote>
          <p>Víctor Manuel relata en la canción <em>En la planta 14</em> la terrible cotidianidad de los accidentes en la mina. Las imágenes corresponden al accidente en el Pozo Santa Bárbara, el 19 de diciembre de 1992.</p>
        </div>
        <div class="video">
@@ -161,6 +161,7 @@
                   <div class="bloquederecha">
                      <div class="minititulo">Capítulo 2</div>
                      <a href="triunfo"><h2>El triunfo de algunos</h2></a>
+                     <a class="boton" href="triunfo">Leer →</a>
                   </div>
                </div>
            </div>

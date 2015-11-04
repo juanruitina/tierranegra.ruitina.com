@@ -327,6 +327,7 @@
         <div class="entrev-b-datos">
            <div class="entrev-nombre"><a href="entrevista-alperi">José Luis Alperi</a></div>
            <div class="entrev-cargo">Secretario General del SOMA-UGT-FITAG</div>
+           <a class="boton" href="entrevista-alperi">Leer entrevista →</a>
         </div>
      </div>
      <div class="entrev-b entrev-b-prendes dos-bloque button-link">
@@ -335,6 +336,7 @@
         <div class="entrev-b-datos">
            <div class="entrev-nombre"><a href="entrevista-prendes">José Ignacio Prendes</a></div>
            <div class="entrev-cargo">Diputado en la Junta General del Principado y presidente de la comisión parlamentaria sobre el caso Villa</div>
+           <a class="boton" href="entrevista-prendes">Leer entrevista →</a>
         </div>
      </div>
      <div class="clearboth"></div>
@@ -348,6 +350,7 @@
                   <div class="bloquederecha">
                      <div class="minititulo">Capítulo 3</div>
                      <a href="manana"><h2>Las Cuencas de mañana</h2></a>
+                     <a class="boton" href="manana">Leer →</a>
                   </div>
                </div>
            </div>
