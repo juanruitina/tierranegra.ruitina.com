@@ -325,8 +325,8 @@
         <blockquote>&ldquo;Un control más riguroso de los fondos habría producido otros resultados, estoy convencido&rdquo;</blockquote>
         <img src="img/entrevistas/avatar-alperi.jpg" class="entrev-avatar" />
         <div class="entrev-b-datos">
-           <div class="entrev-nombre"><a href="entrevista-alperi">José Luis Alperi</a></div>
-           <div class="entrev-cargo">Secretario General del SOMA-UGT-FITAG</div>
+           <div><span class="entrev-nombre">José Luis Alperi</span>,
+           <span class="entrev-cargo">secretario general del SOMA-UGT-FITAG</span></div>
            <a class="boton" href="entrevista-alperi">Leer entrevista →</a>
         </div>
      </div>
@@ -334,8 +334,8 @@
         <blockquote>&ldquo;La gestión de los fondos mineros es el gran fracaso de la clase política asturiana&rdquo;</blockquote>
         <img src="img/entrevistas/avatar-prendes.jpg" class="entrev-avatar" />
         <div class="entrev-b-datos">
-           <div class="entrev-nombre"><a href="entrevista-prendes">José Ignacio Prendes</a></div>
-           <div class="entrev-cargo">Diputado en la Junta General del Principado y presidente de la comisión parlamentaria sobre el caso Villa</div>
+           <div><span class="entrev-nombre">José Ignacio Prendes</span>,
+           <span class="entrev-cargo">diputado en la Junta General del Principado</span></div>
            <a class="boton" href="entrevista-prendes">Leer entrevista →</a>
         </div>
      </div>

@@ -10,6 +10,7 @@
       <li class="cap1 lucha"><a href="lucha">La lucha de todos</a></li>
       <li class="cap2 triunfo"><a href="triunfo">El triunfo de algunos</a></li>
       <li class="cap3 manana"><a href="manana">Las Cuencas de mañana</a></li>
+      <li><?php include('includes/social-mini.php'); ?></li>
     </ul>
   </nav>
 </div>

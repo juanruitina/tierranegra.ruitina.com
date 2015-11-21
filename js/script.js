@@ -30,7 +30,7 @@ if ($(window).width() >= 800) {
        $('.manana .banner').css({'-webkit-filter': 'grayscale(' + ( 100-scroll/scrollAnimationSpeed )/100}) + '%)';
    });
 }
-/* Fix alto de pantalla para móviles */
+/* Fix alto de pantalla para móviles
 if ($(window).width() < 800) {
    $(document).ready(function(){
       $('.lucha header,.triunfo header,.manana header .content-a').css({'height': $(window).height()});
@@ -38,7 +38,7 @@ if ($(window).width() < 800) {
       $('.manana header').css({'height': $(window).height() * 1.5 });
       $('.siguiente').css({'height': $(window).height() * 0.6 });
    });
-}
+}*/
 
 /* RESIZE */
 $(window).resize(function(){

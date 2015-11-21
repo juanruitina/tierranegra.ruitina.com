@@ -104,8 +104,11 @@ p.subtitle {
     line-height: 1.8rem;
     max-width:600px;
 }
-.subtitle a {
-    border-bottom-color: #333;
+.subtitle a, .creditos a {
+    border-bottom-color: gray;
+}
+.subtitle a:hover, .creditos a:hover {
+   border-bottom-color: currentColor;
 }
 footer {
     margin-top:8rem;
@@ -526,6 +529,9 @@ h3.caption {
 
 .social  {display: block;}
 .social > div {display: inline-block;}
+.social a:hover {
+   text-decoration: none !important;
+}
 .fb_iframe_widget_fluid {
   display: inline-block !important;
 }
@@ -533,7 +539,21 @@ h3.caption {
 	margin-right:1rem;
 	float:left;
    margin-bottom:1rem;
-   min-height:23px;
+   height:20px;
+}
+.share-button:last-of-type {
+   margin-right:0;
+}
+nav .social {
+   display:inline-block;
+   float:right;
+}
+nav .share-button {
+   margin-bottom: 0;
+   margin-top: 2px;
+}
+.fb-share-button.fb_iframe_widget > span {
+   vertical-align: initial !important;
 }
 
 /* Otras cosas */
@@ -707,21 +727,6 @@ body.cap3 .top-nav .cap3 a,
 }
 
 @media screen and (max-width:800px) {
-   .top-nav h1::after {display:none}
-   .top-nav ul {display:none}
-   .top-nav li {
-      display:block;
-   }
-   .top-nav-button {
-      display:block;
-      background: transparent;
-      color:inherit;
-      border:0;
-      float:right;
-      height: 20px;
-      outline:none;
-      margin-top: 4px;
-   }
    .tabla .overflow {
       overflow:scroll;
    }
@@ -859,6 +864,26 @@ body.inicio hgroup.header, .bloquederecha {
    }
 }
 @media screen and (max-width:1000px) {
+   .top-nav h1::after {display:none}
+   .top-nav ul {display:none}
+   .top-nav li {
+      display:block;
+   }
+   .top-nav-button {
+      display:block;
+      background: transparent;
+      color:inherit;
+      border:0;
+      float:right;
+      height: 20px;
+      outline:none;
+      margin-top: 4px;
+   }
+   .top-nav .social {
+      float:none;
+      margin-top: 1rem;
+   }
+
    .seccion > p, .seccion > blockquote, .seccion > hr, .seccion > h3, footer > .box
    body.inicio hgroup.header, .bloquederecha,
    .side,
@@ -924,6 +949,10 @@ body.inicio hgroup.header, .bloquederecha {
    .inicio .banner {
       background-position: left;
    }
+   .inicio hr.separador {
+      display:none;
+   }
+   .entrevista nav .social {display:none}
 }
 
 /* SOLO tablets grandes */
@@ -976,7 +1005,7 @@ body.inicio hgroup.header, .bloquederecha {
 /* Phone */
 @media screen and (max-width:460px) {
     html {
-        font-size:80%;
+        font-size:85%;
     }
     .banner, footer, .creditos {
         text-align:left;
@@ -996,6 +1025,9 @@ body.inicio hgroup.header, .bloquederecha {
     	right: 6%;
 	}
    .tabla-partidos span.tabla-th-abreviar {
+      display:none;
+   }
+   .inicio hr.separador {
       display:none;
    }
 }

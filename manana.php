@@ -306,7 +306,7 @@
      </div>
      <div class="entrev-b-datos">
          <div class="entrev-nombre">José Ignacio Prendes</div>
-         <div class="entrev-cargo">Diputado en la Junta Gral. del Principado</div>
+         <div class="entrev-cargo">Diputado en la Junta General del Principado</div>
       </div>
    </div>
    <div class="clearboth"></div>
@@ -329,9 +329,13 @@
 
 <div class="creditos">
     <div class="box">
-      <?php include('includes/social.php'); ?>
+      <div class="social clearboth-after">
+         <div class="share-button"><a href="https://twitter.com/share?text=Donde%20la%20tierra%20era%20negra" class="twitter-share-button" data-url="http://tierranegra.ruitina.com"></a></div>
+         <div class="share-button"><div class="fb-like" data-href="http://tierranegra.ruitina.com" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div>
+         <div class="share-button"><script type="IN/Share"></script></div>
+      </div>
       <p><a href="/" class="fancy-font">Donde la tierra era negra</a> es un reportaje elaborado por Juan Ángel Donaire Ruitiña. Fue presentado en octubre de 2015 como Trabajo de Fin de Grado de Periodismo.</a>
-      <p>Todos los datos utilizados están disponibles en <a href="https://docs.google.com/spreadsheets/d/1GWdoVi3HzQqRs7ISxMIp5uKEZu45lPcCq7BIMiI8qmg/edit?usp=sharing">esta hoja de cálculo</a>.</p>
+      <p>Todos los datos utilizados están disponibles en <a href="https://docs.google.com/spreadsheets/d/1GWdoVi3HzQqRs7ISxMIp5uKEZu45lPcCq7BIMiI8qmg/edit?usp=sharing">esta hoja de cálculo</a>. El código fuente de este reportaje puede encontrarse en <a href="https://bitbucket.org/juanruitina/tierranegra.ruitina.com">este repositorio</a>.</p>
       <p>Voz de la intro: <a href="http://gomezpozo.com/">Oscar Gómez</a>.
       <p>¿Opiniones? Házmelas llegar <a href="http://twitter.com/juanruitina">vía Twitter</a> o mándame un correo a <i><a href="mailto:juan@ruitina.com">juan@ruitina.com</a></i>.</p>
       <p class="fancy-font">Creative Commons <a href="http://creativecommons.org/licenses/by-sa/3.0/es/" title="Reconocimiento-Compartir igual">BY-SA</a></p>
