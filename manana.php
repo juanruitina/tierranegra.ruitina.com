@@ -334,11 +334,12 @@
          <div class="share-button"><div class="fb-like" data-href="http://tierranegra.ruitina.com" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></div>
          <div class="share-button"><script type="IN/Share"></script></div>
       </div>
-      <p><a href="/" class="fancy-font">Donde la tierra era negra</a> es un reportaje elaborado por Juan Ángel Donaire Ruitiña. Fue presentado en octubre de 2015 como Trabajo de Fin de Grado de Periodismo.</a>
-      <p>Todos los datos utilizados están disponibles en <a href="https://docs.google.com/spreadsheets/d/1GWdoVi3HzQqRs7ISxMIp5uKEZu45lPcCq7BIMiI8qmg/edit?usp=sharing">esta hoja de cálculo</a>. El código fuente de este reportaje puede encontrarse en <a href="https://bitbucket.org/juanruitina/tierranegra.ruitina.com">este repositorio</a>.</p>
+      <p><a href="/" class="fancy-font">Donde la tierra era negra</a> es un reportaje elaborado por <a href="http://ruitina.com">Juan Ruitiña</a>.</a>
       <p>Voz de la intro: <a href="http://gomezpozo.com/">Oscar Gómez</a>.
+      <p>Todos los datos utilizados están disponibles en <a href="https://docs.google.com/spreadsheets/d/1GWdoVi3HzQqRs7ISxMIp5uKEZu45lPcCq7BIMiI8qmg/edit?usp=sharing">esta hoja de cálculo</a>. El código fuente de este reportaje puede encontrarse en <a href="https://bitbucket.org/juanruitina/tierranegra.ruitina.com">este repositorio</a>.</p>
       <p>¿Opiniones? Házmelas llegar <a href="http://twitter.com/juanruitina">vía Twitter</a> o mándame un correo a <i><a href="mailto:juan@ruitina.com">juan@ruitina.com</a></i>.</p>
-      <p class="fancy-font">Creative Commons <a href="http://creativecommons.org/licenses/by-sa/3.0/es/" title="Reconocimiento-Compartir igual">BY-SA</a></p>
+      <p>Creative Commons <a href="http://creativecommons.org/licenses/by-sa/3.0/es/" title="Atribución-Compartir igual">Atribución-Compartir igual</a></p>
+      <p><em>Última actualización: noviembre de 2015.</em></p>
     </div>
 </div>
 
