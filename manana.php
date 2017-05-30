@@ -1,8 +1,11 @@
+<?php
+   $title = "Las Cuencas de mañana";
+   $description = "¿Han servido los fondos mineros para reconvertir la economía comarcal? Las políticas fallidas y los datos parecen decir que no.";
+   $socialimg = "panorama.jpg"
+?>
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Donde la tierra era negra: Las Cuencas de mañana</title>
-
   <?php include('includes/head.php'); ?>
   <body class="cap3 manana">
   <?php include('includes/header.php'); ?>
@@ -336,10 +339,10 @@
       </div>
       <p><a href="/" class="fancy-font">Donde la tierra era negra</a> es un reportaje elaborado por <a href="http://ruitina.com">Juan Ruitiña</a>.</a>
       <p>Voz de la intro: <a href="http://gomezpozo.com/">Oscar Gómez</a>.
-      <p>Todos los datos utilizados están disponibles en <a href="https://docs.google.com/spreadsheets/d/1GWdoVi3HzQqRs7ISxMIp5uKEZu45lPcCq7BIMiI8qmg/edit?usp=sharing">esta hoja de cálculo</a>. El código fuente de este reportaje puede encontrarse en <a href="https://bitbucket.org/juanruitina/tierranegra.ruitina.com">este repositorio</a>.</p>
+      <p>Todos los datos utilizados están disponibles en <a href="https://docs.google.com/spreadsheets/d/1GWdoVi3HzQqRs7ISxMIp5uKEZu45lPcCq7BIMiI8qmg/edit?usp=sharing">esta hoja de cálculo</a>. El código fuente de este reportaje puede encontrarse en <a href="https://github.com/juanruitina/tierranegra.ruitina.com">este repositorio</a>.</p>
       <p>¿Opiniones? Házmelas llegar <a href="http://twitter.com/juanruitina">vía Twitter</a> o mándame un correo a <i><a href="mailto:juan@ruitina.com">juan@ruitina.com</a></i>.</p>
       <p>Creative Commons <a href="http://creativecommons.org/licenses/by-sa/3.0/es/" title="Atribución-Compartir igual">Atribución-Compartir igual</a></p>
-      <p><em>Última actualización: noviembre de 2015.</em></p>
+      <p><em>Publicado en noviembre de 2015. Modificado por última vez en mayo de 2017.</em></p>
     </div>
 </div>
 
@@ -353,15 +356,6 @@
      $(window).stellar();
   };
   </script>
-
-  <!--<script src="js/jquery.tablesorter.js"></script>
-  <script>
-  $(document).ready(function()
-      {
-          $("#tabla-empresas").tablesorter();
-      }
-  );
-  </script>-->
 
 </body>
 </html>

@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Donde la tierra era&nbsp;negra</title>
-
   <?php include('includes/head.php'); ?>
   <?php include('includes/header.php'); ?>
   <body class="inicio">
   <header style="height:120vh;">
-     <!--<?php include('includes/top-nav.php'); ?>-->
+     <?php /*include('includes/top-nav.php');*/ ?>
       <div class="banner">
          <div id="caja" class="container fondob">
             <div class="content-a" style="position:absolute" >

@@ -1,8 +1,11 @@
+<?php
+   $quote = "&ldquo;Un control más riguroso de los fondos habría producido otros resultados, estoy convencido&rdquo;";
+   $entrevistado = "José Luis Alperi, secretario general de SOMA-UGT-FITAG";
+   $socialimg = "entrevistas/alperi.jpg";
+?>
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Entrevista a José Luis Alperi · Donde la tierra era negra</title>
-
   <?php include('includes/head.php'); ?>
 <body class="entrevista entrevista-alperi">
  <?php include('includes/header.php'); ?>

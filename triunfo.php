@@ -1,8 +1,11 @@
+<?php
+   $title = "El triunfo de algunos";
+   $description = "Monopolio del poder y descontrol: con su pasividad, los sindicatos, el gobierno del Principado y Madrid favorecieron las corruptelas que salpican la gestión de los fondos mineros.";
+   $socialimg = "manifa.jpg";
+?>
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Donde la tierra era negra: El triunfo de algunos</title>
-
   <?php include('includes/head.php'); ?>
   <body class="cap2 triunfo">
   <?php include('includes/header.php'); ?>
@@ -17,7 +20,7 @@
               <div class="bloquederecha">
                  <div class="minititulo">Capítulo 2</div>
                  <h2><a href="#start" class="smooth">El triunfo de algunos</a></h2>
-                 <p class="subtitle description">Monopolio del poder y descontrol: con su tolerancia, los sindicatos, el gobierno del Principado y Madrid favorecieron las corruptelas que salpican la gestión de los fondos mineros.</p>
+                 <p class="subtitle description">Monopolio del poder y descontrol: con su pasividad, los sindicatos, el gobierno del Principado y Madrid favorecieron las corruptelas que salpican la gestión de los fondos mineros.</p>
               </div>
              </div>
           </div>
@@ -112,7 +115,7 @@
             <td colspan="4" class="partidos-psoe"></td>
             <td colspan="3" class="partidos-psoe"></td>
             <td colspan="4" class="partidos-pp"></td>
-            <td class="partidos-desconocido">?</td>
+            <td class="partidos-pp"></td>
           </tr>
           <tr>
             <td class="first-column">Asturias</td>
@@ -288,16 +291,16 @@
    <p>Cuando el río suena, agua lleva. La mala gestión política de la reconversión va más allá de la negligencia. En octubre de 2014, la Fiscalía Anticorrupción anunció que estaba investigando al mismísimo Villa <a href="http://www.europapress.es/asturias/noticia-fiscalia-anticorrupcion-investiga-fernandez-villa-ocultar-hacienda-publica-14-millones-euros-20141008101211.html">por ocultar presuntamente 1,4 millones</a> de euros a Hacienda. El histórico sindicalista se había acogido a la amnistía fiscal de Rajoy, pero la fiscalía sospechaba que la procedencia de ese dinero era ilícita.</p>
    <p>El origen de esos fondos aún no está claro. Villa defendió que los 1,4 millones de euros provenían de la herencia de su madre, la cual regentaba un chigre en Tuilla (Langreo). Esta versión, poco creíble, fue desmentida por una de sus hermanas. Sin embargo, se apunta ya a tres fuentes: la participación del sindicalista en el comité intercentros de Hunosa, que le reportó 243.000 euros en gastos no debidamente justificados; las ayudas a cursos de formación a través de Fundesfor, cuyas cuentas, como denunció el Tribunal de Cuentas, no estaban claras, y el cobro fraudulento de comisiones por contratos para la construcción de una residencia para mayores propiedad del Montepío de la Minería, en el concejo de Aller. <a href="http://politica.elpais.com/politica/2015/06/14/actualidad/1434309503_884070.html">Según informaba <em>El País</em></a>, Villa, presidente del Montepío, consiguió en la fiesta minera de Rodiezmo (León) que José Luis Rodríguez Zapatero concediera subvenciones al organismo. Consiguió dar la dirección del Montepío a José Antonio Postigo, su amigo personal, y ambos colocaron a dos hijos con sendos contratos de 50.000 euros anuales y blindados con una anualidad en caso de despido. Al igual que Villa, Postigo y su hija regularizaron cientos de miles de euros con la amnistía fiscal del Partido Popular. “En 2012, <span class="soundcite" data-url="media/alperi-villa.mp3" data-start="0" data-plays="1">cuando Villa se acoge a la amnistía</span>, es cuando tienen lugar las movilizaciones de la minería más duras de los últimos años”, señala José Luis Alperi, secretario del mismo sindicato desde 2013, “te crea indignación y rabia”.</p>
    <p>El testimonio de José Vía, representante del minoritario sindicato USO, causó también gran revuelo. En <a href="http://www.elcomercio.es/politica/201410/26/fiscalia-investiga-fondo-caso-20141026011707-v.html">una entrevista al diario gijonés <em>El Comercio</em></a>, Vía afirma haber presenciado conversaciones delicadas en las cuales se reconocía de forma implícita malversación de fondos y tráfico de influencias por parte de los representantes de, al menos, UGT.</p>
-
 </div>
+
 <div class="box dos dos-citas">
    <div class="dos-bloque cita">
       <blockquote>&ldquo;Vengo del Tribunal de Cuentas de declarar por los fondos de formación de la minería, que vosotros sabéis muy bien cómo los gastasteis&rdquo;</blockquote>
-      <p>—Juan Miguel Benítez, gerente del Instituto del Carbón, a Víctor Fernández, secretario de UGT-FITAG para el carbón</p>
+      <p>—Supuestas palabras de <strong>Juan Miguel Benítez</strong>, gerente del Instituto del Carbón, a Víctor Fernández, secretario de UGT-FITAG para el carbón</p>
    </div>
    <div class="dos-bloque cita">
       <blockquote>&ldquo;José Ángel, todo lo que habéis hecho por mí bien que os lo he pagado&rdquo;.</blockquote>
-      <p>—Victorino Alonso, presidente de la patronal, a José Ángel Fernández Villa, secretario general de SOMA-UGT</p>
+      <p>—Supuestas palabras de <strong>Victorino Alonso</strong>, presidente de la patronal minera, a José Ángel Fernández Villa, secretario general de SOMA-UGT</p>
    </div>
    <div class="clearboth"></div>
 </div>
@@ -316,7 +319,7 @@
 
    <p>Esta entrevista figura en el diario de sesiones de la comisión parlamentaria que investigó el caso a principios de este año. De ser ciertas estas declaraciones, dejan intuir el posible alcance de la corrupción dentro de la minería asturiana. El informe final de la comisión, que no fue aprobado en el parlamento asturiano, solo pudo probar que la concesión de 27 millones de euros al Montepío había sido irregular por tratarse este de una identidad privada, pero señala indicios del origen de la fortuna de Villa y denuncia el descontrol y la connivencia de todos los agentes. <span class="soundcite" data-url="media/prendes-pujol.mp3" data-start="0" data-plays="1">"El caso Villa es el caso Pujol asturiano"</span>, defiende José Ignacio Prendes, que presidió la comisión.</p>
 
-   <p>De cualquier modo, caso Villa no es el primer escándalo de corrupción en torno a los fondos: también han sido investigados el <a href="http://www.lne.es/gijon/2014/02/18/juan-miguel-benitez-pasaba-mina/1544660.html">uso fraudulento</a> de las ayudas a la producción en la mina de la Camocha, en Gijón, en fechas tan tempranas como 1998, y la <a href="http://economia.elpais.com/economia/2015/03/29/actualidad/1427651231_666625.html">cotización irregular de los directivos del carbón</a> como mineros de interior en León.</p>
+   <p>De cualquier modo, el caso Villa no es el primer escándalo de corrupción en torno a los fondos: también han sido investigados el <a href="http://www.lne.es/gijon/2014/02/18/juan-miguel-benitez-pasaba-mina/1544660.html">uso fraudulento</a> de las ayudas a la producción en la mina de la Camocha, en Gijón, en fechas tan tempranas como 1998, y la <a href="http://economia.elpais.com/economia/2015/03/29/actualidad/1427651231_666625.html">cotización irregular de los directivos del carbón</a> como mineros de interior en León.</p>
   </div>
 
   <div class="entrev-b-banner box dos" id="entrevistas">

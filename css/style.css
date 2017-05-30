@@ -129,6 +129,9 @@ footer p.copyright {
 	font-size:1.2rem;
 	line-height: 1.7rem;
 }
+.entrevista p:last-of-type {
+    margin-bottom: 0;
+}
 .seccion > p.p-big {
     font-size: 2rem;
     line-height: 2.4rem;
@@ -672,7 +675,7 @@ iframe.tableauViz {
 .top-nav {
     background:black;
     color:whitesmoke;
-    padding:12px 0;
+    padding: 14px 0 10px;
     position: fixed;
     width:100%;
     z-index: 1000;

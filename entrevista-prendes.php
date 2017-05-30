@@ -1,8 +1,11 @@
+<?php
+   $quote = "&ldquo;La gestión de los fondos mineros es el gran fracaso de la clase política asturiana&rdquo;";
+   $entrevistado = "José Ignacio Prendes, diputado en la Junta General del Principado";
+   $socialimg = "entrevistas/prendes.jpg";
+?>
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Entrevista a José Ignacio Prendes · Donde la tierra era negra</title>
-
   <?php include('includes/head.php'); ?>
 <body class="entrevista entrevista-alperi">
  <?php include('includes/header.php'); ?>

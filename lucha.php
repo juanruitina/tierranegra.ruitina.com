@@ -1,8 +1,11 @@
+<?php
+   $title = "La lucha de todos";
+   $description = "Los mineros del carbón, claves para el movimiento obrero español, consiguieron con una incomparable capacidad de movilización su último gran logro: los fondos mineros.";
+   $socialimg = "puno.jpg";
+?>
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Donde la tierra era negra: La lucha de todos</title>
-
   <?php include('includes/head.php'); ?>
   <body class="cap1 lucha">
   <?php include('includes/header.php'); ?>
