@@ -104,7 +104,7 @@
      <th>Por trabajador</th>
      <th></th>
     </tr>
-    <thead>
+    </thead>
     <tbody>
     <tr>
      <td>Alas Aluminium</td>
@@ -194,7 +194,6 @@
    <p>Por otro lado, los fondos para infraestructuras fueron algunas veces la excusa para reducir el gasto autonómico en los municipios mineros, lo cual negaba los principios de adicionalidad y complementariedad bajo los que se otorgaron las ayudas. "Lo que no encaja, por ejemplo", señala Alperi, "es cómo se pueden pagar los saneamientos de muchos núcleos urbanos del Nalón con fondos mineros, cuando en otros sitios se hacen con cargo de los presupuestos generales".</p>
    <p>No es sorprendente que, cuando apenas quedan tres años para el cierre, los resultados sean más bien decepcionantes.</p>
 </div>
-<script src="https://public.tableausoftware.com/javascripts/api/viz_v1.js" type="text/javascript"></script>
 
    <div class="box tres clearboth-after cap3-graficos">
       <div class="tres-bloque">
@@ -204,23 +203,7 @@
          </div>
          <div class="tres-bloque-grafico">
             <div class="tableauembed square keepaspectratio-out">
-               <div class="tableauPlaceholder keepaspectratio-in" style="width: 100%; height: 100%;">
-                  <noscript><a href="#"><img alt="Población" src="https://publicrevizit.tableausoftware.com/static/images/Do/Dondelatierraeranegra/Evolucindelapoblacin/1_rss.png" style="border: none"></a></noscript>
-                  <object class="tableauViz" height="100%" style="display:none;" width="100%">
-                     <param name="host_url" value="https%3A%2F%2Fpublic.tableausoftware.com%2F">
-                     <param name="site_root" value="">
-                     <param name="name" value="Dondelatierraeranegra/Evolucindelapoblacin">
-                     <param name="tabs" value="no">
-                     <param name="toolbar" value="yes">
-                     <param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Do&#47;Dondelatierraeranegra&#47;Evolucindelapoblacin&#47;1.png">
-                     <param name="animate_transition" value="yes">
-                     <param name="display_static_image" value="yes">
-                     <param name="display_spinner" value="yes">
-                     <param name="display_overlay" value="yes">
-                     <param name="display_count" value="no">
-                     <param name="showVizHome" value="no">
-                  </object>
-               </div>
+              <iframe class="keepaspectratio-in" src="https://public.tableau.com/views/Dondelatierraeranegra/Evolucindelapoblacin?:showVizHome=no&:embed=true"></iframe>
             </div>
             <p class="grafico-creditos">Fuente: Padrón, INE.</p>
          </div>
@@ -232,23 +215,7 @@
          </div>
          <div class="tres-bloque-grafico">
             <div class="tableauembed square keepaspectratio-out">
-               <div class="tableauPlaceholder keepaspectratio-in" style="width: 100%; height: 100%;">
-                  <noscript><a href="#"><img alt="Población" src="https://publicrevizit.tableausoftware.com/static/images/Do/Dondelatierraeranegra/Tasaglobaldeempleo/1_rss.png" style="border: none"></a></noscript>
-                  <object class="tableauViz" height="100%" style="display:none;" width="100%">
-                     <param name="host_url" value="https%3A%2F%2Fpublic.tableausoftware.com%2F">
-                     <param name="site_root" value="">
-                     <param name="name" value="Dondelatierraeranegra/Tasaglobaldeempleo">
-                     <param name="tabs" value="no">
-                     <param name="toolbar" value="yes">
-                     <param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Do&#47;Dondelatierraeranegra&#47;Tasaglobaldeempleo&#47;1.png">
-                     <param name="animate_transition" value="yes">
-                     <param name="display_static_image" value="yes">
-                     <param name="display_spinner" value="yes">
-                     <param name="display_overlay" value="yes">
-                     <param name="display_count" value="no">
-                     <param name="showVizHome" value="no">
-                  </object>
-               </div>
+              <iframe class="keepaspectratio-in" src="https://public.tableau.com/views/Dondelatierraeranegra/Tasaglobaldeempleo?:showVizHome=no&:embed=true"></iframe>
             </div>
             <p class="grafico-creditos">Fuente: INE, SADEI.</p>
          </div>
@@ -260,23 +227,7 @@
       </div>
       <div class="tres-bloque-grafico">
          <div class="tableauembed square keepaspectratio-out">
-            <div class="tableauPlaceholder keepaspectratio-in" style="width: 100%; height: 100%;">
-               <noscript><a href="#"><img alt="Población" src="https://publicrevizit.tableausoftware.com/static/images/Do/Dondelatierraeranegra/Empleoporsectores/1_rss.png" style="border: none"></a></noscript>
-               <object class="tableauViz" height="100%" style="display:none;" width="100%">
-                  <param name="host_url" value="https%3A%2F%2Fpublic.tableausoftware.com%2F">
-                  <param name="site_root" value="">
-                  <param name="name" value="Dondelatierraeranegra/Empleoporsectores">
-                  <param name="tabs" value="no">
-                  <param name="toolbar" value="yes">
-                  <param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Do&#47;Dondelatierraeranegra&#47;Empleoporsectores&#47;1.png">
-                  <param name="animate_transition" value="yes">
-                  <param name="display_static_image" value="yes">
-                  <param name="display_spinner" value="yes">
-                  <param name="display_overlay" value="yes">
-                  <param name="display_count" value="no">
-                  <param name="showVizHome" value="no">
-               </object>
-            </div>
+           <iframe class="keepaspectratio-in" src="https://public.tableau.com/views/Dondelatierraeranegra/Empleoporsectores?:showVizHome=no&:embed=true"></iframe>
          </div>
          <p class="grafico-creditos">Fuente: SADEI.</p>
       </div>

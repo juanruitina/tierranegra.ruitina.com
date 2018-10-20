@@ -1,8 +1,9 @@
-@import url(//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700,400italic);
 
-/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+*{box-sizing:border-box;}
+body{margin:0;}
+
 html, body {width:100%;height:100%;margin:0;}
 body {
     font-family:"Lato",sans-serif;
@@ -17,16 +18,8 @@ h1,h2,h3,h4,
 h3.side,
 .top-nav {
     font-family: "Old Standard TT", serif;
-}
-/* Formato */
-b, strong {
-	font-weight: bold;
-}
-i, em {
-    font-style: italic;
-}
-abbr {
-    border-bottom: 1px dotted #333;
+    font-weight: normal;
+    margin-top: 0;
 }
 a {
     border-bottom: 1px solid #ccc;
@@ -34,12 +27,26 @@ a {
     color:inherit;
     transition: all 200ms linear;
 }
+table {
+  border-collapse: collapse;
+}
+td, th {
+  vertical-align: top;
+  padding: 0;
+}
+th {
+  font-weight: normal;
+}
 /** {outline: none}*/
 a:hover /*, *:focus */ {
     border-bottom-color: #333;
 }
+p, blockquote, ul {
+  margin: 0;
+}
 p, blockquote, div.pmargin {
-    margin-bottom:1rem;
+  margin-bottom:1rem;
+  line-height:140%;
 }
 div.pmargin {
     display:block !important;
@@ -182,7 +189,7 @@ footer p.copyright {
 }
 
 /* Fix iPad */
-@media only screen and (max-device-width : 1024px)  {
+@media only screen and ( max-device-width : 1024px )  {
    .banner {
        background-attachment: scroll !important;
    }
@@ -500,6 +507,10 @@ hr.separador::after {
 	margin-bottom:1.2rem;
 	text-transform: uppercase;
 }
+.side.index ul {
+    list-style: none;
+    padding: 0;
+}
 .side.index li {
    font-family: "Old Standard TT", serif;
    font-style:italic;
@@ -548,7 +559,6 @@ h3.caption {
    margin-right:0;
 }
 nav .social {
-   display:inline-block;
    float:right;
 }
 nav .share-button {
@@ -568,31 +578,13 @@ abbr {
 }
 
 /* Infografías */
-iframe.tableauViz {
-    margin:0 auto !important;
-    width: 100% !important;
+.tableauembed iframe {
+    border: 0;
 }
 .tableauembed {
     width: 100%; /* whatever width you want */
     display: block;
     position: relative;
-}
-/*div.tableauembed {
-    margin-top:3rem;
-    margin-bottom:3rem;
-}
-.tableauembed:after {
-    padding-top: 100%;
-    display: block;
-    content: '';
-}*/
-/*.grafico.tableauembed:after {
-    padding-top: 50%; /* aspect ratio
-}
-*/
-.tableauPlaceholder {
-    position: absolute !important;
-    top: 0; bottom: 0; right: 0; left: 0; /* fill parent */
 }
 /* Keep aspect ratio */
 .keepaspectratio-out {
@@ -617,12 +609,11 @@ iframe.tableauViz {
 .keepaspectratio-out.ratio-16-9:after {
     padding-top: 56% !important; /* aspect ratio */
 }
-/*.banner1 .keepaspectratio-out:after {
-    padding-top: 80% !important; /* aspect ratio
-}*/
 .keepaspectratio-in {
     position: absolute !important;
     top: 0; bottom: 0; right: 0; left: 0; /* fill parent */
+    width: 100%;
+    height: 100%;
 }
 .boton {
    display:inline-block;
@@ -684,7 +675,6 @@ iframe.tableauViz {
 .top-nav h1, .top-nav ul {
     display:inline;
     font-size:1em;
-    margin-bottom:0;
 }
 .top-nav h1 {
    line-height: normal;
@@ -710,14 +700,11 @@ iframe.tableauViz {
    display:none;
 }
 nav a {
-    -webkit-transition: all .25s ease;
-       -moz-transition: all .25s ease;
-        -ms-transition: all .25s ease;
-         -o-transition: all .25s ease;
-            transition: all .25s ease;
+  transition: all .25s ease;
 }
 .top-nav ul {
    margin-top: 8px;
+   padding-left: 0;
 }
 
 body.inicio .top-nav .inicio a,
@@ -774,13 +761,6 @@ body.inicio hgroup.header, .bloquederecha {
   width: 20px;
   height: 15px;
   position: relative;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer;
 }
@@ -794,44 +774,26 @@ body.inicio hgroup.header, .bloquederecha {
   border-radius: 3px;
   opacity: 1;
   left: 0;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
 
 #top-nav-button span:nth-child(1) {
   top: 0px;
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -o-transform-origin: left center;
   transform-origin: left center;
 }
 
 #top-nav-button span:nth-child(2) {
   top: 6px;
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -o-transform-origin: left center;
   transform-origin: left center;
 }
 
 #top-nav-button span:nth-child(3) {
   top: 12px;
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -o-transform-origin: left center;
   transform-origin: left center;
 }
 
 #top-nav-button.open span:nth-child(1) {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
   transform: rotate(45deg);
   top: -1px;
   left: 3px;
@@ -843,9 +805,6 @@ body.inicio hgroup.header, .bloquederecha {
 }
 
 #top-nav-button.open span:nth-child(3) {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
   top: 13px;
   left: 3px;
@@ -880,7 +839,7 @@ body.inicio hgroup.header, .bloquederecha {
       float:right;
       height: 20px;
       outline:none;
-      margin-top: 4px;
+      margin-top: 1px;
    }
    .top-nav .social {
       float:none;
@@ -1037,23 +996,10 @@ body.inicio hgroup.header, .bloquederecha {
 
 @media screen and (min-width:1400px) {
 	.fullscreen, .not-fullscreen {height:70% !important;}
-
-	/*html {
-	    font-size:120%;
-	}
-	.box, div.seccion {
-    	max-width:1152px; /* 960px
-    }
-    .seccion > p, .seccion > blockquote, .seccion > hr, .seccion > h3, footer > .box {
-        max-width: 720px; /* 600px
-    }
-    div.side {
-        width: 360px; /* 300px
-    }*/
 }
 
 .cap2 .siguiente, .manana .banner {
-   -webkit-filter: grayscale(1);
+   filter: grayscale(1);
 }
 .button-link-hover:hover {
    cursor:pointer;
@@ -1070,16 +1016,10 @@ body.inicio hgroup.header, .bloquederecha {
 @media screen and (max-width:800px) {
    .manana header .fondob {
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+33,e5e5e5+66&amp;0.6+0,0.6+33,0+66 */
-      background: -moz-linear-gradient(top,  rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 33%, rgba(229,229,229,0) 66%); /* FF3.6+ */
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.6)), color-stop(33%,rgba(0,0,0,0.6)), color-stop(66%,rgba(229,229,229,0))); /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 33%,rgba(229,229,229,0) 66%); /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 33%,rgba(229,229,229,0) 66%); /* Opera 11.10+ */
-      background: -ms-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 33%,rgba(229,229,229,0) 66%); /* IE10+ */
       background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 33%,rgba(229,229,229,0) 66%); /* W3C */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00e5e5e5',GradientType=0 ); /* IE6-9 */
    }
    .manana .banner {
-      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
       background-position: 30%;
    }
 }
