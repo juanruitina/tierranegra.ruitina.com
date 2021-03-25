@@ -1,0 +1,12 @@
+{
+   "short_name": "Tierra negra",
+   "name": "Donde la tierra era negra",
+   "start_url": "index.php",
+   "display": "standalone",
+   "icons": [
+      {
+         "src": "/assets/img/icon/launcher-icon-4x.png",
+         "type": "image/png"
+      }
+   ]
+}
