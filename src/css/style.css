@@ -5,6 +5,11 @@
 body{margin:0;}
 
 html, body {width:100%;height:100%;margin:0;}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family:"Lato",sans-serif;
     margin:0;
@@ -157,28 +162,7 @@ footer p.copyright {
     margin-top:48px;
     margin-bottom:24px;
 }
-/*.entrevista {
-    background-color:whitesmoke;
-    padding:5rem 0;
-}
-.entrevista .seccion {
-    margin-top:0;
-    margin-bottom:0;
-}
-.entrevista .titular {
-    font-size:2rem;
-    line-height: 2.4rem;
-    font-weight: bold;
-    margin-top:1rem;
-    margin-bottom:2rem;
-    font-style: italic;
-}
-.entrevista .pregunta {
-    font-weight: bold;
-}
-.entrevista img {
-    border-radius: 3px;
-}*/
+
 /* Banners y parallax */
 .banner {
    position: relative;
@@ -387,11 +371,6 @@ section {
 
 .cita blockquote {font-size:1.7rem;}
 
-/*.banner-tabla table {
-   margin-right:auto;
-   margin-left:0;
-}*/
-
 /* Capítulo 2 */
 .clearboth-after::after {
    display:block;
@@ -466,9 +445,9 @@ section {
 .entrevista p.pregunta {
    font-weight: bold;
 }
-/*.entrevista .entrev-b {
-   font-size:1.2rem;
-}*/
+.nota-mallada {
+    margin-top: 2rem;
+}
 
 /* Capítulo 3 */
 .box.epilogo {
@@ -652,7 +631,6 @@ abbr {
 
 /* Línea temporal */
 .tl-timeline, .tl-text .tl-headline-date, .tl-text h3.tl-headline-date, .tl-timenav-slider h2 {font-family: Lato, sans-serif !important;}
-/*.tl-slide-content {width: 100% !important;}*/
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container {display:none;}
 .tl-media-shadow {box-shadow: none !important;}
 .tl-timeline a, .tl-timeline p a {
