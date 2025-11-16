@@ -1,4 +1,6 @@
-# tierranegra.ruitina.com
+# Donde la tierra era negra
+
+Reportaje sobre la reconversión de las Cuencas Mineras asturianas. Hecho con Eleventy.
 
 ## Requisitos previos
 
